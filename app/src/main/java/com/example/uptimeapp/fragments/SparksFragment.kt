@@ -1,4 +1,4 @@
-package com.example.uptimeapp.FragmentsPage
+package com.example.uptimeapp.fragments
 
 import androidx.fragment.app.Fragment
 import com.example.uptimeapp.R

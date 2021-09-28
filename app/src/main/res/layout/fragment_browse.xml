@@ -1,15 +1,509 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="#EEEEEE"
     android:layout_height="match_parent"
-    tools:context=".FragmentsPage.BrowseFragment">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.BrowseFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
-        android:gravity="center"
-        android:layout_height="match_parent"
-        android:text="Browse Fragment" />
+        android:background="#eeeeee"
+        android:layout_height="200dp"
+        android:fitsSystemWindows="true">
 
-</FrameLayout>
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fitsSystemWindows="true"
+            app:contentScrim="#EEEEEE"
+            app:layout_scrollFlags="scroll|snap|exitUntilCollapsed"
+            app:title="Browse"
+            android:id="@+id/collapsingToolbar">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                app:layout_collapseMode="parallax"
+                android:src="@drawable/src_components_basescreen_headercurvedragonfruit"/>
+
+            <androidx.appcompat.widget.Toolbar
+                app:contentInsetStart="0dp"
+                app:layout_collapseMode="pin"
+                android:layout_gravity="bottom"
+                android:elevation="4dp"
+                android:background="@android:color/transparent"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/search"
+                        android:background="@drawable/bottom_nav_bg"
+                        android:drawableStart="@drawable/ic_search"
+                        android:hint="Title, author, or keyword"
+                        android:padding="10dp" />
+
+                </RelativeLayout>
+            </androidx.appcompat.widget.Toolbar>
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="By topic"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <com.google.android.material.button.MaterialButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Personal Growth"
+                    android:textAllCaps="false"
+                    android:id="@+id/presonalGrowth"
+                    android:layout_marginEnd="10dp"
+                    android:backgroundTint="@color/white"
+                    android:textColor="@color/black"/>
+
+                <com.google.android.material.button.MaterialButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Business"
+                    android:id="@+id/business"
+                    android:textAllCaps="false"
+                    android:layout_marginEnd="10dp"
+                    android:backgroundTint="@color/white"
+                    android:textColor="@color/black"/>
+
+                <com.google.android.material.button.MaterialButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Culture and Society"
+                    android:textAllCaps="false"
+                    android:id="@+id/CultureAndSociety"
+                    android:layout_marginEnd="10dp"
+                    android:backgroundTint="@color/white"
+                    android:textColor="@color/black"/>
+
+                <com.google.android.material.button.MaterialButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Leadership and Entrepreneurship"
+                    android:layout_marginEnd="10dp"
+                    android:id="@+id/leadershipAndEntrepreneurship"
+                    android:backgroundTint="@color/white"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"/>
+
+                <com.google.android.material.button.MaterialButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Career and Success"
+                    android:layout_marginEnd="10dp"
+                    android:textAllCaps="false"
+                    android:id="@+id/careerAndSucess"
+                    android:backgroundTint="@color/white"
+                    android:textColor="@color/black"/>
+
+                <com.google.android.material.button.MaterialButton
+                    android:layout_width="wrap_content"
+                    android:textAllCaps="false"
+                    android:layout_height="wrap_content"
+                    android:text="Health and Fitness"
+                    android:layout_marginEnd="10dp"
+                    android:id="@+id/healthAndFitness"
+                    android:backgroundTint="@color/white"
+                    android:textColor="@color/black"/>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+            </HorizontalScrollView>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_height="wrap_content">
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <com.google.android.material.button.MaterialButton
+                        android:layout_width="wrap_content"
+                        android:textAllCaps="false"
+                        android:layout_height="wrap_content"
+                        android:text="Science and Environment"
+                        android:layout_marginEnd="10dp"
+                        android:id="@+id/scienceAndEnvironment"
+                        android:backgroundTint="@color/white"
+                        android:textColor="@color/black"/>
+
+                    <com.google.android.material.button.MaterialButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/mindAndPhilosophy"
+                        android:text="Mind and Philosophy"
+                        android:textAllCaps="false"
+                        android:layout_marginEnd="10dp"
+                        android:backgroundTint="@color/white"
+                        android:textColor="@color/black"/>
+
+                    <com.google.android.material.button.MaterialButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Biographies"
+                        android:textAllCaps="false"
+                        android:id="@+id/biographies"
+                        android:layout_marginEnd="10dp"
+                        android:backgroundTint="@color/white"
+                        android:textColor="@color/black"/>
+
+                    <com.google.android.material.button.MaterialButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/parentingAndRelationships"
+                        android:text="Parenting and Relationships"
+                        android:layout_marginEnd="10dp"
+                        android:textAllCaps="false"
+                        android:backgroundTint="@color/white"
+                        android:textColor="@color/black"/>
+
+                    <com.google.android.material.button.MaterialButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Technology and the Future"
+                        android:layout_marginEnd="10dp"
+                        android:id="@+id/technology"
+                        android:textAllCaps="false"
+                        android:backgroundTint="@color/white"
+                        android:textColor="@color/black"/>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+            </HorizontalScrollView>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_height="wrap_content">
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <com.google.android.material.button.MaterialButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Lifestyle"
+                        android:id="@+id/lifeStyle"
+                        android:layout_marginEnd="10dp"
+                        android:textAllCaps="false"
+                        android:backgroundTint="@color/white"
+                        android:textColor="@color/black"/>
+
+                    <com.google.android.material.button.MaterialButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="History"
+                        android:layout_marginEnd="10dp"
+                        android:id="@+id/history"
+                        android:textAllCaps="false"
+                        android:backgroundTint="@color/white"
+                        android:textColor="@color/black"/>
+
+                    <com.google.android.material.button.MaterialButton
+                        android:layout_width="wrap_content"
+                        android:textAllCaps="false"
+                        android:id="@+id/money"
+                        android:layout_height="wrap_content"
+                        android:text="Money and Investing"
+                        android:layout_marginEnd="10dp"
+                        android:backgroundTint="@color/white"
+                        android:textColor="@color/black"/>
+
+                    <com.google.android.material.button.MaterialButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAllCaps="false"
+                        android:text="Education"
+                        android:id="@+id/education"
+                        android:layout_marginEnd="10dp"
+                        android:backgroundTint="@color/white"
+                        android:textColor="@color/black"/>
+
+                    <com.google.android.material.button.MaterialButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAllCaps="false"
+                        android:id="@+id/art"
+                        android:text="Art and Design"
+                        android:layout_marginEnd="10dp"
+                        android:backgroundTint="@color/white"
+                        android:textColor="@color/black"/>
+
+                    <com.google.android.material.button.MaterialButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Marketing and Sales"
+                        android:layout_marginEnd="10dp"
+                        android:id="@+id/marketing"
+                        android:textAllCaps="false"
+                        android:backgroundTint="@color/white"
+                        android:textColor="@color/black"/>
+
+                    <com.google.android.material.button.MaterialButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAllCaps="false"
+                        android:id="@+id/religion"
+                        android:text="Religion and Spirituality"
+                        android:layout_marginEnd="10dp"
+                        android:backgroundTint="@color/white"
+                        android:textColor="@color/black"/>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+            </HorizontalScrollView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Deep dive into"
+                android:textSize="22sp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:id="@+id/collections"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/deep_dive_bg"
+                android:backgroundTint="#6600ff">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Collections"
+                    android:layout_centerVertical="true"
+                    android:textColor="@color/white"
+                    android:layout_margin="20dp"
+                    android:textSize="18sp"
+                    android:textStyle="bold"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:scaleType="fitEnd"
+                    android:src="@drawable/src_features_search_assets_collections" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:id="@+id/booksHacks"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/deep_dive_bg"
+                android:backgroundTint="#00cc44">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Book\nHacks"
+                    android:layout_centerVertical="true"
+                    android:textColor="@color/white"
+                    android:layout_margin="20dp"
+                    android:textSize="18sp"
+                    android:textStyle="bold"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitEnd"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/src_features_search_assets_book" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:id="@+id/courseHacks"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/deep_dive_bg"
+                android:backgroundTint="#b30086">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Course\nHacks"
+                    android:layout_centerVertical="true"
+                    android:textColor="@color/white"
+                    android:layout_margin="20dp"
+                    android:textSize="18sp"
+                    android:textStyle="bold"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:scaleType="fitEnd"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/src_features_search_assets_course" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginBottom="30dp"
+                android:id="@+id/documentaryHacks"
+                android:background="@drawable/deep_dive_bg"
+                android:backgroundTint="#3366ff">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Documentary\nHacks"
+                    android:layout_centerVertical="true"
+                    android:textColor="@color/white"
+                    android:layout_margin="20dp"
+                    android:textSize="18sp"
+                    android:textStyle="bold"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:scaleType="fitEnd"
+                    android:src="@drawable/src_features_search_assets_documentary" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginBottom="30dp"
+                android:id="@+id/uptimeRecommends"
+                android:background="@drawable/deep_dive_bg"
+                android:backgroundTint="#00001a">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Uptime\nRecommends"
+                    android:layout_centerVertical="true"
+                    android:textColor="@color/white"
+                    android:layout_margin="20dp"
+                    android:textSize="18sp"
+                    android:textStyle="bold"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:scaleType="fitEnd"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/src_features_search_assets_recommended" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginBottom="30dp"
+                android:id="@+id/trendingHacks"
+                android:background="@drawable/deep_dive_bg"
+                android:backgroundTint="#cc6600">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Trending\nHacks"
+                    android:layout_centerVertical="true"
+                    android:textColor="@color/white"
+                    android:layout_margin="20dp"
+                    android:textSize="18sp"
+                    android:textStyle="bold"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:scaleType="fitEnd"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/src_features_search_assets_trending" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:id="@+id/newHacks"
+                android:layout_marginBottom="100dp"
+                android:background="@drawable/deep_dive_bg"
+                android:backgroundTint="#990000">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="New\nHacks"
+                    android:layout_centerVertical="true"
+                    android:textColor="@color/white"
+                    android:layout_margin="20dp"
+                    android:textSize="18sp"
+                    android:textStyle="bold"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitEnd"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/src_features_search_assets_new" />
+
+            </RelativeLayout>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.core.widget.NestedScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

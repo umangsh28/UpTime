@@ -3,23 +3,23 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/imrep/Desktop/UpTime/app/src/main/res/drawable/bottom_item_selector.xml" value="0.290625" />
-        <entry key="..\:/Users/imrep/Desktop/UpTime/app/src/main/res/drawable/bottom_nav_bg.xml" value="0.290625" />
-        <entry key="..\:/Users/imrep/Desktop/UpTime/app/src/main/res/drawable/premium_frag_bg.xml" value="0.290625" />
-        <entry key="..\:/Users/imrep/Desktop/UpTime/app/src/main/res/layout/activity_main.xml" value="0.16893115942028986" />
-        <entry key="..\:/Users/imrep/Desktop/UpTime/app/src/main/res/layout/fragment_browse.xml" value="0.16893115942028986" />
-        <entry key="..\:/Users/imrep/Desktop/UpTime/app/src/main/res/layout/fragment_home.xml" value="0.16893115942028986" />
-        <entry key="..\:/Users/imrep/Desktop/UpTime/app/src/main/res/layout/fragment_my_uptime.xml" value="0.16893115942028986" />
-        <entry key="..\:/Users/imrep/Desktop/UpTime/app/src/main/res/layout/fragment_premium.xml" value="0.16893115942028986" />
-        <entry key="..\:/Users/imrep/Desktop/UpTime/app/src/main/res/layout/fragment_sparks.xml" value="0.16893115942028986" />
-        <entry key="..\:/Users/imrep/Desktop/UpTime/app/src/main/res/menu/bottom_menu_items.xml" value="0.27447916666666666" />
-      </map>
-    </option>
-  </component>
-  <component name="DesignSurface">
-    <option name="filePathToZoomLevelMap">
-      <map>
+        <entry key="..\:/Users/offic/AndroidStudioProjects/UpTime2/app/src/main/res/drawable/bottom_item_selector.xml" value="0.2526041666666667" />
+        <entry key="..\:/Users/offic/AndroidStudioProjects/UpTime2/app/src/main/res/drawable/bottom_nav_bg.xml" value="0.2526041666666667" />
+        <entry key="..\:/Users/offic/AndroidStudioProjects/UpTime2/app/src/main/res/drawable/deep_dive_bg.xml" value="0.2526041666666667" />
+        <entry key="..\:/Users/offic/AndroidStudioProjects/UpTime2/app/src/main/res/drawable/ic_baseline_4k_24.xml" value="0.2526041666666667" />
+        <entry key="..\:/Users/offic/AndroidStudioProjects/UpTime2/app/src/main/res/drawable/ic_home.xml" value="0.2526041666666667" />
+        <entry key="..\:/Users/offic/AndroidStudioProjects/UpTime2/app/src/main/res/drawable/ic_premium.xml" value="0.2526041666666667" />
+        <entry key="..\:/Users/offic/AndroidStudioProjects/UpTime2/app/src/main/res/drawable/ic_search.xml" value="0.2526041666666667" />
+        <entry key="..\:/Users/offic/AndroidStudioProjects/UpTime2/app/src/main/res/drawable/ic_sparks.xml" value="0.2526041666666667" />
+        <entry key="..\:/Users/offic/AndroidStudioProjects/UpTime2/app/src/main/res/drawable/ic_uptime.xml" value="0.2526041666666667" />
+        <entry key="..\:/Users/offic/AndroidStudioProjects/UpTime2/app/src/main/res/layout/activity_deep_dive.xml" value="0.23645833333333333" />
         <entry key="..\:/Users/offic/AndroidStudioProjects/UpTime2/app/src/main/res/layout/activity_main.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/offic/AndroidStudioProjects/UpTime2/app/src/main/res/layout/fragment_browse.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/offic/AndroidStudioProjects/UpTime2/app/src/main/res/layout/fragment_home.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/offic/AndroidStudioProjects/UpTime2/app/src/main/res/layout/fragment_my_uptime.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/offic/AndroidStudioProjects/UpTime2/app/src/main/res/menu/bottom_menu_items.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/offic/AndroidStudioProjects/UpTime2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.13177083333333334" />
+        <entry key="..\:/Users/offic/AndroidStudioProjects/UpTime2/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2526041666666667" />
       </map>
     </option>
   </component>
