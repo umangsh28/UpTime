@@ -1,28 +1,136 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="@color/white"
     android:layout_height="match_parent"
     tools:context=".FragmentsPage.PremiumFragment">
-
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
     <LinearLayout
         android:layout_width="match_parent"
         android:background="@drawable/premium_frag_bg"
         android:layout_height="wrap_content">
         <ImageView
             android:layout_width="wrap_content"
-            android:layout_marginTop="10dp"
-            android:padding="10dp"
+            android:padding="5dp"
+            android:layout_marginStart="15dp"
+            android:layout_gravity="center"
             android:layout_height="wrap_content"
             android:src="@drawable/ic_premium"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_gravity="center_vertical"
             android:layout_height="wrap_content"
-            android:layout_marginStart="10dp"
+            android:layout_marginStart="5dp"
             android:text="Premium"
             android:textStyle="bold"
             android:textColor="@color/black"
             android:textSize="30sp"/>
     </LinearLayout>
-</LinearLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/precentageoff"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:text="Keep unlimited access to thousands of Hacks. Limited time offer."/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="12dp"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:padding="5dp"
+            android:layout_marginStart="32dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_check"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="20dp"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="Learn in story form,read in text mode, or listen with our audio player"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="12dp"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:padding="5dp"
+            android:layout_marginStart="32dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_check"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="20dp"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="Analyze your progress and access exclusive features"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="12dp"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:padding="5dp"
+            android:layout_marginStart="32dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_check"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="20dp"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="New content added daily for only Rs.3,999.00 for the first year"/>
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#ff0000"
+        android:textColor="@color/white"
+        android:text="Save 50% now"
+        android:textSize="16sp"
+        android:padding="14dp"
+        android:textAllCaps="false"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="30dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:text="VIEW ALL PLANS"
+            android:textSize="16sp"
+            android:layout_marginTop="5dp"
+            android:padding="14dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This is a 50% discount when compared to the standard monthly fee. You'll be charged Rs.3,999.00 for the first year. This will renew every year for Rs.5,999.00. Cancel anytime."
+            android:layout_marginTop="25dp"
+            android:layout_marginStart="22dp"
+            android:textColor="@color/black"
+            android:layout_marginEnd="22dp"
+            android:textSize="13dp"
+            android:layout_marginBottom="120dp"/>
+    </LinearLayout>
+</ScrollView>
