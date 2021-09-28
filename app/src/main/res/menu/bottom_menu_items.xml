@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/ic_home"
+        android:title="home"/>
+
+    <item
+        android:id="@+id/browseFragment"
+        android:icon="@drawable/ic_search"
+        android:title="Search"/>
+
+    <item
+        android:id="@+id/sparksFragment"
+        android:icon="@drawable/ic_sparks"
+        android:title="Favourite"/>
+
+    <item
+        android:id="@+id/myUptimeFragment"
+        android:icon="@drawable/ic_uptime"
+        android:title="Shopping"/>
+
+    <item
+        android:id="@+id/premiumFragment"
+        android:icon="@drawable/ic_premium"
+        android:title="Shopping"/>
+
+</menu>
