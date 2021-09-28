@@ -3,6 +3,22 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/imrep/Desktop/UpTime/app/src/main/res/drawable/bottom_item_selector.xml" value="0.290625" />
+        <entry key="..\:/Users/imrep/Desktop/UpTime/app/src/main/res/drawable/bottom_nav_bg.xml" value="0.290625" />
+        <entry key="..\:/Users/imrep/Desktop/UpTime/app/src/main/res/drawable/premium_frag_bg.xml" value="0.290625" />
+        <entry key="..\:/Users/imrep/Desktop/UpTime/app/src/main/res/layout/activity_main.xml" value="0.16893115942028986" />
+        <entry key="..\:/Users/imrep/Desktop/UpTime/app/src/main/res/layout/fragment_browse.xml" value="0.16893115942028986" />
+        <entry key="..\:/Users/imrep/Desktop/UpTime/app/src/main/res/layout/fragment_home.xml" value="0.16893115942028986" />
+        <entry key="..\:/Users/imrep/Desktop/UpTime/app/src/main/res/layout/fragment_my_uptime.xml" value="0.16893115942028986" />
+        <entry key="..\:/Users/imrep/Desktop/UpTime/app/src/main/res/layout/fragment_premium.xml" value="0.16893115942028986" />
+        <entry key="..\:/Users/imrep/Desktop/UpTime/app/src/main/res/layout/fragment_sparks.xml" value="0.16893115942028986" />
+        <entry key="..\:/Users/imrep/Desktop/UpTime/app/src/main/res/menu/bottom_menu_items.xml" value="0.27447916666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
         <entry key="..\:/Users/offic/AndroidStudioProjects/UpTime2/app/src/main/res/layout/activity_main.xml" value="0.23645833333333333" />
       </map>
     </option>

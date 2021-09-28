@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_bottom.xml"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.uptimeapp.FragmentsPage.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/browseFragment"
+        android:name="com.example.uptimeapp.FragmentsPage.BrowseFragment"
+        android:label="fragment_browse"
+        tools:layout="@layout/fragment_browse" />
+    <fragment
+        android:id="@+id/sparksFragment"
+        android:name="com.example.uptimeapp.FragmentsPage.SparksFragment"
+        android:label="fragment_sparks"
+        tools:layout="@layout/fragment_sparks" />
+    <fragment
+        android:id="@+id/myUptimeFragment"
+        android:name="com.example.uptimeapp.FragmentsPage.MyUptimeFragment"
+        android:label="fragment_my_uptime"
+        tools:layout="@layout/fragment_my_uptime" />
+    <fragment
+        android:id="@+id/premiumFragment"
+        android:name="com.example.uptimeapp.FragmentsPage.PremiumFragment"
+        android:label="fragment_premium"
+        tools:layout="@layout/fragment_premium" />
+</navigation>
