@@ -7,10 +7,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".FragmentsPage.PremiumFragment">
-    <!--    <FrameLayout-->
-    <!--        android:id="@+id/flPremiumFragContainer"-->
-    <!--        android:layout_width="match_parent"-->
-    <!--        android:layout_height="wrap_content"/>-->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -154,5 +150,5 @@
         </LinearLayout>
     </ScrollView>
     </LinearLayout>
-    <include layout="@layout/bottom_sheet_forpremiumplans" />
+    <include layout="@layout/bottom_sheet_forpremiumplans"/>
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

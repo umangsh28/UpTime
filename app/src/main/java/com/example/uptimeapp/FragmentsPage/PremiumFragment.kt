@@ -20,10 +20,5 @@ class PremiumFragment : Fragment(R.layout.fragment_premium) {
             )
         }
 
-        btnNoThanksPremium.setOnClickListener {
-            (bottomSheetBehavior as BottomSheetBehavior<*>).setState(
-                BottomSheetBehavior.STATE_COLLAPSED
-            )
-        }
     }
 }
