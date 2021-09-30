@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "615015333147",
+    "project_id": "uptime-app-cfd63",
+    "storage_bucket": "uptime-app-cfd63.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:615015333147:android:0e825827438cd6e78167be",
+        "android_client_info": {
+          "package_name": "com.example.uptimeapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "615015333147-ie2sd5jm2bg3gaepb8itbsu28pdn1pu3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1Zpbk2nO5IVWN4wmfNI6BQgUwzvgxUEs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "615015333147-ie2sd5jm2bg3gaepb8itbsu28pdn1pu3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
