@@ -3,6 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/hp/Desktop/UpTime/app/src/main/res/layout/activity_deep_dive.xml" value="0.144" />
+        <entry key="..\:/Users/hp/Desktop/UpTime/app/src/main/res/layout/activity_main.xml" value="0.2128623188405797" />
+        <entry key="..\:/Users/hp/Desktop/UpTime/app/src/main/res/layout/fragment_browse.xml" value="0.13903985507246377" />
+        <entry key="..\:/Users/hp/Desktop/UpTime/app/src/main/res/layout/fragment_home.xml" value="0.21422101449275363" />
+        <entry key="..\:/Users/hp/Desktop/UpTime/app/src/main/res/layout/fragment_my_uptime.xml" value="0.2128623188405797" />
+        <entry key="..\:/Users/hp/Desktop/UpTime/app/src/main/res/layout/fragment_premium.xml" value="0.2128623188405797" />
+        <entry key="..\:/Users/hp/Desktop/UpTime/app/src/main/res/layout/fragment_sparks.xml" value="0.2128623188405797" />
         <entry key="..\:/Users/offic/AndroidStudioProjects/UpTime2/app/src/main/res/drawable/bottom_item_selector.xml" value="0.2526041666666667" />
         <entry key="..\:/Users/offic/AndroidStudioProjects/UpTime2/app/src/main/res/drawable/bottom_nav_bg.xml" value="0.2526041666666667" />
         <entry key="..\:/Users/offic/AndroidStudioProjects/UpTime2/app/src/main/res/drawable/deep_dive_bg.xml" value="0.2526041666666667" />

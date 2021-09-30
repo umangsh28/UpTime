@@ -29,7 +29,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:scaleType="fitXY"
-                android:src="@drawable/src_components_basescreen_headercurvedragonfruit"
+                app:srcCompat="@drawable/src_components_basescreen_headercurvedragonfruit"
                 app:layout_collapseMode="parallax" />
 
             <androidx.appcompat.widget.Toolbar
@@ -54,7 +54,8 @@
                         android:background="@drawable/bottom_nav_bg"
                         android:drawableStart="@drawable/ic_search"
                         android:hint="Title, author, or keyword"
-                        android:padding="10dp" />
+                        android:padding="10dp"
+                        tools:ignore="TouchTargetSizeCheck" />
 
                 </RelativeLayout>
             </androidx.appcompat.widget.Toolbar>
@@ -338,7 +339,7 @@
                     android:layout_alignParentEnd="true"
                     android:layout_centerVertical="true"
                     android:scaleType="fitEnd"
-                    android:src="@drawable/src_features_search_assets_collections" />
+                    app:srcCompat="@drawable/src_features_search_assets_collections" />
 
             </RelativeLayout>
 
@@ -366,7 +367,7 @@
                     android:layout_alignParentEnd="true"
                     android:layout_centerVertical="true"
                     android:scaleType="fitEnd"
-                    android:src="@drawable/src_features_search_assets_book" />
+                    app:srcCompat="@drawable/src_features_search_assets_book" />
 
             </RelativeLayout>
 
@@ -394,7 +395,7 @@
                     android:layout_alignParentEnd="true"
                     android:layout_centerVertical="true"
                     android:scaleType="fitEnd"
-                    android:src="@drawable/src_features_search_assets_course" />
+                    app:srcCompat="@drawable/src_features_search_assets_course" />
 
             </RelativeLayout>
 
@@ -422,7 +423,7 @@
                     android:layout_alignParentEnd="true"
                     android:layout_centerVertical="true"
                     android:scaleType="fitEnd"
-                    android:src="@drawable/src_features_search_assets_documentary" />
+                    app:srcCompat="@drawable/src_features_search_assets_documentary" />
 
             </RelativeLayout>
 
@@ -450,7 +451,7 @@
                     android:layout_alignParentEnd="true"
                     android:layout_centerVertical="true"
                     android:scaleType="fitEnd"
-                    android:src="@drawable/src_features_search_assets_recommended" />
+                    app:srcCompat="@drawable/src_features_search_assets_recommended" />
 
             </RelativeLayout>
 
@@ -478,7 +479,7 @@
                     android:layout_alignParentEnd="true"
                     android:layout_centerVertical="true"
                     android:scaleType="fitEnd"
-                    android:src="@drawable/src_features_search_assets_trending" />
+                    app:srcCompat="@drawable/src_features_search_assets_trending" />
 
             </RelativeLayout>
 
@@ -506,7 +507,7 @@
                     android:layout_alignParentEnd="true"
                     android:layout_centerVertical="true"
                     android:scaleType="fitEnd"
-                    android:src="@drawable/src_features_search_assets_new" />
+                    app:srcCompat="@drawable/src_features_search_assets_new" />
 
             </RelativeLayout>
 

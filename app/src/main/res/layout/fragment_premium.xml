@@ -34,7 +34,7 @@
                     android:layout_marginStart="15dp"
                     android:layout_gravity="center"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/ic_premium"/>
+                    app:srcCompat="@drawable/ic_premium"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_gravity="center_vertical"
@@ -48,7 +48,7 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:src="@drawable/precentageoff"/>
+                app:srcCompat="@drawable/precentageoff"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -68,7 +68,7 @@
                     android:padding="5dp"
                     android:layout_marginStart="32dp"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/ic_check"/>
+                    app:srcCompat="@drawable/ic_check"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_marginStart="4dp"
@@ -87,7 +87,7 @@
                     android:padding="5dp"
                     android:layout_marginStart="32dp"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/ic_check"/>
+                    app:srcCompat="@drawable/ic_check"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_marginStart="4dp"
@@ -106,7 +106,7 @@
                     android:padding="5dp"
                     android:layout_marginStart="32dp"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/ic_check"/>
+                    app:srcCompat="@drawable/ic_check"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_marginStart="4dp"
