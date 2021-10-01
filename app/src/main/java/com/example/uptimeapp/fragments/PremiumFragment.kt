@@ -8,6 +8,7 @@ import com.google.android.material.bottomsheet.BottomSheetBehavior
 import kotlinx.android.synthetic.main.bottom_sheet_forpremiumplans.*
 import kotlinx.android.synthetic.main.fragment_premium.*
 
+
 class PremiumFragment : Fragment(R.layout.fragment_premium) {
     private var bottomSheetBehavior: BottomSheetBehavior<*>? = null
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
@@ -19,6 +20,11 @@ class PremiumFragment : Fragment(R.layout.fragment_premium) {
                 BottomSheetBehavior.STATE_EXPANDED
             )
         }
+        monthlyPremium.setOnClickListener {
 
+        }
+        yearlyPremium.setOnClickListener {
+
+        }
     }
 }
