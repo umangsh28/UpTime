@@ -6,7 +6,7 @@ import com.bumptech.glide.Glide
 import com.example.uptimeapp.Mvvm.Model.Result
 import kotlinx.android.synthetic.main.itemdesign.view.*
 
-class UViewHolder(private val itemView : View)
+class UviewHolder(private val itemView : View)
     : RecyclerView.ViewHolder(itemView) {
 
 

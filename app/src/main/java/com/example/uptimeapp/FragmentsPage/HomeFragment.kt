@@ -1,56 +1,49 @@
 package com.example.uptimeapp.FragmentsPage
 import android.os.Bundle
-import android.util.Log
 import android.view.View
-import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
-import androidx.lifecycle.ViewModelProvider
+import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.dummy.Mvvm.ViewModel.UviewModel
-import com.example.dummy.Recycler.ViewAdapter
-import com.example.uptimeapp.Mvvm.Model.ResponseDTO
+import com.example.dummy.Recycler.ViewAdapterr
+import com.example.uptimeapp.Mvvm.Model.Result
+import com.example.uptimeapp.Mvvm.Repo.Urepositary
+import com.example.uptimeapp.Mvvm.ViewModel.UviewFactory
 import com.example.uptimeapp.R
 import kotlinx.android.synthetic.main.fragment_home.*
 
 class HomeFragment : Fragment(R.layout.fragment_home) {
 
+    lateinit var uviewModel: UviewModel
+    private var list:List<Result>?=null
+//      var responseDTO:  ListResponseDTO
 
-    private var responseDTO: ResponseDTO?=null
+    //    val adapterr=ViewAdapterr(this, responseDTO!!)
+    lateinit var adapterr:ViewAdapterr
+    lateinit var viewModel:UviewModel
 
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        initv()
+        var repo = Urepositary()
+        var viewModelFactory = UviewFactory(repo)
+        viewModel = ViewModelProviders.of(this,viewModelFactory).get(UviewModel::class.java)
 
-
-        setrecycler()
-    }
-
-
-
-
-    private fun initv() {
-        val uviewModel= ViewModelProvider(this).get(UviewModel::class.java)
-        uviewModel.dataByView.observe(viewLifecycleOwner, Observer {
-            if(it != null) {
-                responseDTO=it
-                Log.d("Tag",it.toString())
-            }else{
-                Toast.makeText(context,"Error message", Toast.LENGTH_LONG).show()
-                Log.d("Tag","Errorrrrrrr")
-            }
+        viewModel.ApiCalling("telugu").observe(viewLifecycleOwner, Observer {
+//            responseDTO = it
+            adapterr = ViewAdapterr(requireContext(),it)
         })
-        uviewModel.MakeAPI()
+
+
+        var layoutManager = LinearLayoutManager(context)
+        Recyclertrending.adapter=adapterr
+        Recyclertrending.layoutManager=layoutManager
+
     }
 
-    private fun setrecycler() {
-        val linearLayoutManager= LinearLayoutManager(context,
-            LinearLayoutManager.HORIZONTAL,false)
-        val adapter= responseDTO?.let { context?.let { it1 -> ViewAdapter(it1, it) } }
-        Recyclertrending.layoutManager= linearLayoutManager
-        Recyclertrending.adapter=adapter
-    }
+
+
 
 }
