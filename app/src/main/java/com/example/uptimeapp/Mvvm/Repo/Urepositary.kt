@@ -1,16 +1,19 @@
 package com.example.uptimeapp.Mvvm.Repo
 
-import androidx.lifecycle.LiveData
-import androidx.lifecycle.MutableLiveData
 import com.example.uptimeapp.Mvvm.Api.ApiClient
 import com.example.uptimeapp.Mvvm.Model.ResponseDTO
 import com.example.uptimeapp.Mvvm.Network.Network
 
-class Urepositary(val apiClient: ApiClient) {
+class Urepositary() {
+//    val retro = Network.getInstance().create(ApiClient::class.java)
 
+    suspend fun MakeAPICall(term:String): ResponseDTO {
 
+        val retro = Network.getInstance().create(ApiClient::class.java)
+        val appi = retro.getDataByApi(term)
+        return appi
+    }
 
-    fun getDataByRepo(term : String)=apiClient.getDataByApi(term)
 
 
 }
