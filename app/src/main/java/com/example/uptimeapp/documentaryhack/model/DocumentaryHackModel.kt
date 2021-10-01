@@ -1,6 +1,6 @@
-package com.example.uptimeapp
+package com.example.uptimeapp.documentaryhack.model
 
-data class CourseHackModel(
+data class DocumentaryHackModel(
 
     val imgUrl : String = "",
     val title : String = "",

@@ -11,8 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:background="#eeeeee"
-        android:fitsSystemWindows="true"
-        android:theme="@style/Theme">
+        android:fitsSystemWindows="true">
 
         <com.google.android.material.appbar.CollapsingToolbarLayout
             android:id="@+id/collapsingToolbar"
@@ -50,6 +49,7 @@
                     <EditText
                         android:id="@+id/search"
                         android:layout_width="match_parent"
+                        android:inputType="text"
                         android:layout_height="wrap_content"
                         android:background="@drawable/bottom_nav_bg"
                         android:drawableStart="@drawable/ic_search"

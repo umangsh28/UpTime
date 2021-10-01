@@ -1,61 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:orientation="vertical"
-    android:padding="16dp"
-    android:background="@color/white"
+    android:layout_height="wrap_content"
     android:layout_marginBottom="20dp"
-    android:layout_height="wrap_content">
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="16dp">
 
-    <RelativeLayout
+    <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:background="#EEE">
+        app:cardCornerRadius="6dp">
 
-        <ImageView
+        <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:id="@+id/img"
-            android:scaleType="fitXY"
-            tools:ignore="ContentDescription" />
+            android:background="#EEE">
 
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/ic_bookmark"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentBottom="true"
-            android:layout_margin="10dp"
-            android:id="@+id/save"/>
+            <ImageView
+                android:id="@+id/img"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                tools:ignore="ContentDescription" />
 
-    </RelativeLayout>
+            <ImageView
+                android:id="@+id/save"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_margin="10dp"
+                android:src="@drawable/ic_bookmark" />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
 
     <TextView
+        android:id="@+id/type"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
-        android:textSize="12sp"
         android:background="#A70CB8"
-        android:id="@+id/type"
-        android:textAllCaps="true"
-        android:textStyle="bold"
         android:padding="2dp"
-        android:textColor="@color/white"/>
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:textStyle="bold" />
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:id="@+id/name"
-        android:layout_marginTop="5dp"
-        android:textSize="14sp"
-        android:textStyle="bold"
-        android:textColor="@color/black"/>
-
-    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
         android:id="@+id/resource"
-        android:textSize="12sp"/>
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp" />
 
 </androidx.appcompat.widget.LinearLayoutCompat>
