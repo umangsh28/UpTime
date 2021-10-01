@@ -3,11 +3,11 @@ package com.example.uptimeapp.Mvvm.Network
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
-interface Network {
+class Network {
 
     companion object {
 
-        var base="https://itunes.apple.com/"
+        var base="https://run.mocky.io/"
 
         fun getInstance():Retrofit {
 
