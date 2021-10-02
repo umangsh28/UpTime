@@ -15,6 +15,9 @@
         android:theme="@style/Theme.UpTimeApp"
         tools:ignore="AllowBackup">
         <activity
+            android:name=".BookDetails"
+            android:exported="true" />
+        <activity
             android:name=".SplashActivity"
             android:exported="true">
             <intent-filter>
