@@ -1,15 +1,630 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     tools:context=".fragments.MyUptimeFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
-        android:gravity="center"
-        android:layout_height="match_parent"
-        android:text="MyUptime Fragment" />
+        android:layout_height="180dp"
+        android:background="#eeeeee"
+        android:fitsSystemWindows="true"
+        android:theme="@style/Theme">
 
-</FrameLayout>
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:id="@+id/collapsingToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fitsSystemWindows="true"
+            app:contentScrim="#EEEEEE"
+            app:layout_scrollFlags="scroll|snap|exitUntilCollapsed"
+            app:expandedTitleGravity="start|center_horizontal"
+            app:titleCollapseMode="scale"
+            app:titleEnabled="true">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/src_components_basescreen_headercurvedragonfruit"
+                app:layout_collapseMode="parallax" />
+            <TextView
+                android:id="@+id/tvTitleMyUpTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:layout_gravity="center|start"
+                android:layout_marginBottom="10dp"
+                android:textStyle="bold"
+                android:layout_marginStart="10dp"
+                android:textSize="35sp"
+                android:padding="10dp"
+                android:text="My Uptime"/>
+
+            <androidx.appcompat.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:padding="10dp"
+                android:layout_marginStart="15dp"
+                android:background="@android:color/transparent"
+                android:elevation="4dp"
+                app:contentInsetStart="0dp"
+                app:layout_collapseMode="pin">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:src="@drawable/ic_settings"
+                    android:layout_marginEnd="10dp"
+                    android:padding="6dp"
+                    app:civ_border_width="2dp"
+                    app:civ_border_color="#FF000000"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+
+                    android:layout_marginEnd="10dp"
+                    android:padding="6dp"
+                    app:civ_border_width="2dp"
+                    app:civ_border_color="#FF000000"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+
+                    android:layout_marginEnd="6dp"
+                    android:padding="6dp"
+                    app:civ_border_width="2dp"
+                    app:civ_border_color="#FF000000"/>
+
+            </androidx.appcompat.widget.Toolbar>
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:orientation="vertical">
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:elevation="10dp"
+                android:layout_marginStart="8dp"
+                app:cardCornerRadius="10dp"
+                android:layout_marginEnd="8dp"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Your streak"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_height="wrap_content"
+                        android:text="Today"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:text="Tomorrow"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_height="wrap_content"
+                        android:text="Next day"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:src="@drawable/ic_circle"
+                        android:gravity="center"
+                        android:layout_height="wrap_content"/>
+                    <View
+                        android:layout_width="85dp"
+                        android:background="#ff0000"
+                        android:layout_gravity="center"
+                        android:layout_height="0.6dp"/>
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:gravity="center"
+                        android:src="@drawable/ic_circle"
+                        android:layout_height="wrap_content"/>
+                    <View
+                        android:layout_width="85dp"
+                        android:background="#ff0000"
+                        android:layout_gravity="center"
+                        android:layout_height="0.6dp"/>
+                    <ImageView
+                        android:layout_width="wrap_content"
+
+                        android:src="@drawable/ic_circle"
+                        android:gravity="center"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/courseHacks"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="25dp"
+                    android:text="Ready to start? Find something\nintresting and get going.."
+                    android:textSize="18sp"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="20dp"
+                android:elevation="10dp"
+                android:layout_width="match_parent"
+                android:layout_marginStart="8dp"
+                app:cardCornerRadius="10dp"
+                android:layout_marginEnd="8dp"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_marginBottom="30dp"
+                        android:background="@drawable/deep_dive_bg"
+                        android:backgroundTint="@color/white">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginEnd="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:text="Want us to remind\nyou to come back?"
+                            android:textColor="@color/black"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:layout_centerVertical="true"
+                            android:scaleType="fitEnd"
+                            android:src="@drawable/src_features_search_assets_course" />
+                    </RelativeLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#ff0000"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:textSize="16sp"
+                        android:text="Set yourself a remainder to come back "
+                        android:drawableEnd="@drawable/ic_right_arrow"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:text="My Hacks"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="none">
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/presonalGrowth"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="10dp"
+                        android:backgroundTint="@color/white"
+                        android:onClick="onClick"
+                        android:text="Unfinished Hacks"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/business"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="10dp"
+                        android:backgroundTint="@color/white"
+                        android:text="Saved Hacks"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/CultureAndSociety"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="10dp"
+                        android:backgroundTint="@color/white"
+                        android:text="Your History"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+            </HorizontalScrollView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:text="You've completed 0% of the Hacks you\nstarted. Pick up where you left off"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_marginStart="8dp"
+                app:cardCornerRadius="10dp"
+                android:layout_marginEnd="8dp"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_marginBottom="30dp"
+                        android:background="@drawable/deep_dive_bg"
+                        android:backgroundTint="@color/white">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginEnd="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:text="Share the\nknowledge - invite\nyour friends"
+                            android:textColor="@color/black"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:layout_centerVertical="true"
+                            android:scaleType="fitEnd"
+                            android:src="@drawable/src_features_search_assets_course" />
+                    </RelativeLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#ff0000"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:textSize="16sp"
+                        android:text="Invite your friends"
+                        android:drawableEnd="@drawable/ic_right_arrow"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:text="Your stats"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:textStyle="bold"/>
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="none">
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="200dp"
+                        app:cardElevation="5dp"
+                        android:elevation="5dp"
+                        android:layout_margin="6dp"
+                        app:cardCornerRadius="15dp"
+                        android:layout_height="270dp">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_margin="8dp"
+                            android:orientation="vertical"
+                            android:layout_height="match_parent">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="0"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="26sp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="insights"
+                                android:textColor="@color/black"
+                                android:textSize="16sp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Looking like it's time to start\nlearning"/>
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_marginTop="80dp"
+                                android:scaleType="fitCenter"
+                                android:background="#ADD8E6"
+                                android:src="@drawable/src_features_search_assets_collections"
+                                android:layout_height="match_parent"/>
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="200dp"
+                        app:cardElevation="5dp"
+                        android:elevation="5dp"
+                        android:layout_margin="6dp"
+                        app:cardCornerRadius="15dp"
+                        android:layout_height="270dp">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:layout_margin="8dp"
+                            android:layout_height="match_parent">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="0"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="26sp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="hours saved"
+                                android:textColor="@color/black"
+                                android:textSize="16sp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="You're missing out on making\nthe most of Uptime"/>
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_marginTop="80dp"
+                                android:scaleType="fitCenter"
+                                android:background="#ADD8E6"
+                                android:src="@drawable/src_features_search_assets_collections"
+                                android:layout_height="match_parent"/>
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="200dp"
+                        app:cardElevation="5dp"
+                        android:elevation="5dp"
+                        android:layout_margin="6dp"
+                        app:cardCornerRadius="15dp"
+                        android:layout_height="270dp">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:layout_margin="8dp"
+                            android:layout_height="match_parent">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Personal Growth"
+                                android:textColor="@color/black"
+                                android:textSize="16sp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="You're an expert in Personal\nGrowth. You've finished 0 insights"/>
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_marginTop="100dp"
+                                android:scaleType="fitCenter"
+                                android:background="#ADD8E6"
+                                android:src="@drawable/src_features_search_assets_collections"
+                                android:layout_height="match_parent"/>
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="200dp"
+                        app:cardElevation="5dp"
+                        android:elevation="5dp"
+                        android:layout_margin="6dp"
+                        app:cardCornerRadius="15dp"
+                        android:layout_height="270dp">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:layout_margin="8dp"
+                            android:layout_height="match_parent">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="11"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="26sp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="topics covered"
+                                android:textColor="@color/black"
+                                android:textSize="16sp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="It's official, you're into 11\ntopics"/>
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_marginTop="80dp"
+                                android:scaleType="fitCenter"
+                                android:background="#ADD8E6"
+                                android:src="@drawable/src_features_search_assets_collections"
+                                android:layout_height="match_parent"/>
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="200dp"
+                        app:cardElevation="5dp"
+                        android:elevation="5dp"
+                        android:layout_margin="6dp"
+                        app:cardCornerRadius="15dp"
+                        android:layout_height="270dp">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:layout_margin="8dp"
+                            android:layout_height="match_parent">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="0"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="26sp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Hacks"
+                                android:textStyle="bold"
+                                android:textColor="@color/black"
+                                android:textSize="16sp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Go on - we've got thousands\nto choose from"/>
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_marginTop="80dp"
+                                android:scaleType="fitCenter"
+                                android:background="#ADD8E6"
+                                android:src="@drawable/src_features_search_assets_collections"
+                                android:layout_height="match_parent"/>
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+                </androidx.appcompat.widget.LinearLayoutCompat>
+            </HorizontalScrollView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:text="Get in touch"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Give us feedback"
+                android:textColor="@color/black"
+                android:textSize="19sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Request content"
+                android:textColor="@color/black"
+                android:textSize="19sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Take part in research"
+                android:textColor="@color/black"
+                android:textSize="19sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:text="Follow us"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:text="Go on, give us a follow to find out about\nexclusive features, new content, and more."
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginBottom="140dp"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:padding="5dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_settings"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/ic_settings"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/ic_settings"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:padding="5dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_settings"/>
+            </LinearLayout>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.core.widget.NestedScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
