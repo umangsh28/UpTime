@@ -49,11 +49,11 @@
                     <EditText
                         android:id="@+id/search"
                         android:layout_width="match_parent"
-                        android:inputType="text"
                         android:layout_height="wrap_content"
                         android:background="@drawable/bottom_nav_bg"
                         android:drawableStart="@drawable/ic_search"
-                        android:hint="Title, author, or keyword"
+                        android:hint="Search books"
+                        android:inputType="text"
                         android:padding="10dp" />
 
                 </RelativeLayout>
@@ -61,8 +61,17 @@
         </com.google.android.material.appbar.CollapsingToolbarLayout>
     </com.google.android.material.appbar.AppBarLayout>
 
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        android:id="@+id/recyclerView"
+        android:visibility="gone"/>
+
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
+        android:id="@+id/nestedScrollView"
         android:layout_height="match_parent"
         app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
 
