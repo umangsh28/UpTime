@@ -17,4 +17,13 @@
     <style name="Theme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <item name="android:textColor">@color/white</item>
     </style>
+
+    <style name="Theme.UpTimeApp.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.UpTimeApp.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.UpTimeApp.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>

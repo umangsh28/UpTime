@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.uptimeapp" >
+    package="com.example.uptimeapp">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
 
 
 
@@ -14,7 +14,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.UpTimeApp"
-        tools:ignore="AllowBackup" >
+        tools:ignore="AllowBackup">
+        <activity
+            android:name=".PaymentActivity"
+            android:exported="true"
+            android:label="@string/title_activity_payment"
+            android:theme="@style/Theme.UpTimeApp.NoActionBar" />
         <activity
             android:name=".DeepDiveActivity"
             android:exported="true" />
@@ -24,7 +29,7 @@
             android:exported="true" />
         <activity
             android:name=".MainActivity"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
