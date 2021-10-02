@@ -96,6 +96,7 @@
             android:orientation="vertical">
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
+                android:elevation="10dp"
                 android:layout_marginStart="8dp"
                 app:cardCornerRadius="10dp"
                 android:layout_marginEnd="8dp"
@@ -181,6 +182,8 @@
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
             <androidx.cardview.widget.CardView
+                android:layout_marginTop="15dp"
+                android:elevation="10dp"
                 android:layout_width="match_parent"
                 android:layout_marginStart="8dp"
                 app:cardCornerRadius="10dp"
@@ -350,23 +353,230 @@
                 android:text="Your stats"
                 android:textColor="@color/black"
                 android:textSize="22sp"
-                android:textStyle="bold" />
-            <androidx.recyclerview.widget.RecyclerView
+                android:textStyle="bold"/>
+
+
+
+
+
+            <HorizontalScrollView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:scrollbars="none">
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="200dp"
+                        app:cardElevation="5dp"
+                        android:elevation="5dp"
+                        android:layout_margin="6dp"
+                        app:cardCornerRadius="15dp"
+                        android:layout_height="270dp">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_margin="8dp"
+                            android:orientation="vertical"
+                            android:layout_height="match_parent">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="0"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="26sp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="insights"
+                                android:textColor="@color/black"
+                                android:textSize="16sp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Looking like it's time to start\nlearning"/>
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_marginTop="80dp"
+                                android:scaleType="fitCenter"
+                                android:background="#ADD8E6"
+                                android:src="@drawable/src_features_search_assets_collections"
+                                android:layout_height="match_parent"/>
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="200dp"
+                        app:cardElevation="5dp"
+                        android:elevation="5dp"
+                        android:layout_margin="6dp"
+                        app:cardCornerRadius="15dp"
+                        android:layout_height="270dp">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:layout_margin="8dp"
+                            android:layout_height="match_parent">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="0"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="26sp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="hours saved"
+                                android:textColor="@color/black"
+                                android:textSize="16sp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="You're missing out on making\nthe most of Uptime"/>
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_marginTop="80dp"
+                                android:scaleType="fitCenter"
+                                android:background="#ADD8E6"
+                                android:src="@drawable/src_features_search_assets_collections"
+                                android:layout_height="match_parent"/>
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="200dp"
+                        app:cardElevation="5dp"
+                        android:elevation="5dp"
+                        android:layout_margin="6dp"
+                        app:cardCornerRadius="15dp"
+                        android:layout_height="270dp">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:layout_margin="8dp"
+                            android:layout_height="match_parent">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Personal Growth"
+                                android:textColor="@color/black"
+                                android:textSize="16sp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="You're an expert in Personal\nGrowth. You've finished 0 insights"/>
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_marginTop="100dp"
+                                android:scaleType="fitCenter"
+                                android:background="#ADD8E6"
+                                android:src="@drawable/src_features_search_assets_collections"
+                                android:layout_height="match_parent"/>
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="200dp"
+                        app:cardElevation="5dp"
+                        android:elevation="5dp"
+                        android:layout_margin="6dp"
+                        app:cardCornerRadius="15dp"
+                        android:layout_height="270dp">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:layout_margin="8dp"
+                            android:layout_height="match_parent">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="11"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="26sp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="topics covered"
+                                android:textColor="@color/black"
+                                android:textSize="16sp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="It's official, you're into 11\ntopics"/>
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_marginTop="80dp"
+                                android:scaleType="fitCenter"
+                                android:background="#ADD8E6"
+                                android:src="@drawable/src_features_search_assets_collections"
+                                android:layout_height="match_parent"/>
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="200dp"
+                        app:cardElevation="5dp"
+                        android:elevation="5dp"
+                        android:layout_margin="6dp"
+                        app:cardCornerRadius="15dp"
+                        android:layout_height="270dp">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:layout_margin="8dp"
+                            android:layout_height="match_parent">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="0"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="26sp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Hacks"
+                                android:textStyle="bold"
+                                android:textColor="@color/black"
+                                android:textSize="16sp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Go on - we've got thousands\nto choose from"/>
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_marginTop="80dp"
+                                android:scaleType="fitCenter"
+                                android:background="#ADD8E6"
+                                android:src="@drawable/src_features_search_assets_collections"
+                                android:layout_height="match_parent"/>
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+            </HorizontalScrollView>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="20dp"
-                android:text="Your stats"
+                android:text="Get in touch"
                 android:textColor="@color/black"
                 android:textSize="22sp"
                 android:textStyle="bold"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="14dp"
+                android:layout_marginTop="10dp"
                 android:text="Give us feedback"
                 android:textColor="@color/black"
                 android:textSize="19sp"/>
@@ -404,6 +614,7 @@
                 android:textSize="18sp"/>
             <LinearLayout
                 android:layout_width="match_parent"
+                android:layout_marginBottom="140dp"
                 android:layout_height="wrap_content">
                 <ImageView
                     android:layout_width="wrap_content"
