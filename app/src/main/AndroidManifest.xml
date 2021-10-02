@@ -14,7 +14,7 @@
         android:theme="@style/Theme.UpTimeApp"
         tools:ignore="AllowBackup">
         <activity
-            android:name=".MainActivity"
+            android:name=".PaymentActivity"
             android:exported="true"
             android:label="@string/title_activity_payment"
             android:theme="@style/Theme.UpTimeApp.NoActionBar" />
@@ -25,7 +25,7 @@
             android:name=".TopicActivity"
             android:exported="true" />
         <activity
-            android:name=".PaymentActivity"
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

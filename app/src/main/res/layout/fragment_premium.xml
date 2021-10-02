@@ -117,6 +117,7 @@
                     android:text="New content added daily for only Rs.3,999.00 for the first year"/>
             </LinearLayout>
             <Button
+                android:id="@+id/btnSaveNow"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:backgroundTint="#ff0000"
