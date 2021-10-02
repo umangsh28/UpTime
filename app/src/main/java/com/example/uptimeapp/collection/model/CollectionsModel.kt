@@ -1,4 +1,4 @@
-package com.example.uptimeapp
+package com.example.uptimeapp.collection.model
 
 data class CollectionsModel(
 
