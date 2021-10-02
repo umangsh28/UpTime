@@ -1,9 +1,10 @@
 package com.example.uptimeapp.Mvvm
 
-import com.example.uptimeapp.Mvvm.Model.Result
+import com.example.uptimeapp.Mvvm.Model2.TrendingBook.BookListItem
+
 
 interface ItemClickListener {
 
-    fun onitemClick(result: Result,pos:Int)
+    fun onitemClick(result: BookListItem, pos:Int)
 
 }
