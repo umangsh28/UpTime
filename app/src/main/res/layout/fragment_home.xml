@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:background="@color/white"
+    android:orientation="vertical"
     tools:context=".fragments.HomeFragment">
 
     <com.google.android.material.appbar.AppBarLayout
@@ -35,35 +35,34 @@
             <androidx.appcompat.widget.Toolbar
                 android:id="@+id/toolbar"
                 android:layout_width="match_parent"
-                app:layout_collapseMode="pin"
-                android:layout_height="?attr/actionBarSize">
+                android:layout_height="?attr/actionBarSize"
+                app:layout_collapseMode="pin">
 
                 <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    >
+                    android:layout_height="wrap_content">
 
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="end"
-                    android:layout_marginTop="10dp"
-                    android:contentDescription="TODO"
-                    android:layout_toStartOf="@id/im1"
-                    android:padding="10dp"
-                    app:srcCompat="@drawable/ic_sparks" />
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:layout_marginTop="10dp"
+                        android:layout_toStartOf="@id/im1"
+                        android:contentDescription="TODO"
+                        android:padding="10dp"
+                        app:srcCompat="@drawable/ic_sparks" />
 
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="end"
-                    android:id="@+id/im1"
-                    android:layout_alignParentEnd="true"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginEnd="20dp"
-                    android:contentDescription="@string/app_name"
-                    android:padding="10dp"
-                    app:srcCompat="@drawable/ic_premium" />
+                    <ImageView
+                        android:id="@+id/im1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_gravity="end"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="20dp"
+                        android:contentDescription="@string/app_name"
+                        android:padding="10dp"
+                        app:srcCompat="@drawable/ic_premium" />
 
                 </RelativeLayout>
 
@@ -93,8 +92,8 @@
 
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
-        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -187,155 +186,140 @@
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:orientation="vertical"
-                        >
+                        android:orientation="vertical">
 
 
-                    <androidx.cardview.widget.CardView
-                        android:layout_width="300dp"
-                        android:layout_height="200dp"
-                        android:layout_marginEnd="13dp"
-                        android:id="@+id/cm2"
-                        android:backgroundTint="@color/purple_500">
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/cm2"
+                            android:layout_width="300dp"
+                            android:layout_height="200dp"
+                            android:layout_marginEnd="13dp"
+                            android:backgroundTint="@color/purple_500">
 
 
-                        <RelativeLayout
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginStart="45dp">
+                            <RelativeLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="45dp">
 
-                            <ImageView
-                                android:layout_width="400dp"
-                                android:layout_height="200dp"
-                                android:scaleType="fitEnd"
-                                android:src="@drawable/bookk" />
+                                <ImageView
+                                    android:layout_width="400dp"
+                                    android:layout_height="200dp"
+                                    android:scaleType="fitEnd"
+                                    android:src="@drawable/bookk" />
 
-                            <ImageView
-                                android:layout_width="120dp"
-                                android:layout_height="200dp"
-                                android:scaleType="centerCrop"
-                                android:src="@drawable/cover" />
+                                <ImageView
+                                    android:layout_width="120dp"
+                                    android:layout_height="200dp"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/cover" />
 
 
-                        </RelativeLayout>
+                            </RelativeLayout>
 
-                    </androidx.cardview.widget.CardView>
+                        </androidx.cardview.widget.CardView>
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:textSize="14dp"
                             android:layout_alignBottom="@id/cm2"
                             android:text="Getting ready for College"
                             android:textColor="@color/black"
-                            />
+                            android:textSize="14dp" />
 
 
                     </LinearLayout>
 
 
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    >
-
-
-
-
-
-                    <androidx.cardview.widget.CardView
-                        android:layout_width="300dp"
-                        android:layout_height="200dp"
-                        android:layout_marginStart="35dp"
-                        android:layout_marginEnd="13dp"
-                        android:backgroundTint="#9C27B0">
-
-                        <RelativeLayout
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginStart="45dp">
-
-                            <ImageView
-                                android:layout_width="400dp"
-                                android:layout_height="200dp"
-                                android:scaleType="fitEnd"
-                                android:src="@drawable/bbookk2" />
-
-                            <ImageView
-                                android:layout_width="120dp"
-                                android:layout_height="200dp"
-                                android:scaleType="centerCrop"
-                                android:src="@drawable/cover2" />
-
-
-
-
-                        </RelativeLayout>
-
-
-                    </androidx.cardview.widget.CardView>
-
-                    <TextView
+                    <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Hacks to help you Handle mental health"
-                        android:layout_alignParentBottom="true"
-                        android:textSize="14dp"
-                        />
-                </LinearLayout>
+                        android:orientation="vertical">
 
 
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    >
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="300dp"
+                            android:layout_height="200dp"
+                            android:layout_marginStart="35dp"
+                            android:layout_marginEnd="13dp"
+                            android:backgroundTint="#9C27B0">
+
+                            <RelativeLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="45dp">
+
+                                <ImageView
+                                    android:layout_width="400dp"
+                                    android:layout_height="200dp"
+                                    android:scaleType="fitEnd"
+                                    android:src="@drawable/bbookk2" />
+
+                                <ImageView
+                                    android:layout_width="120dp"
+                                    android:layout_height="200dp"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/cover2" />
 
 
+                            </RelativeLayout>
 
 
+                        </androidx.cardview.widget.CardView>
 
-                    <androidx.cardview.widget.CardView
-                        android:layout_width="300dp"
-                        android:layout_height="200dp"
-                        android:layout_marginStart="35dp"
-                        android:layout_marginEnd="13dp"
-                        android:backgroundTint="#FF5722">
-
-                        <RelativeLayout
+                        <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginStart="45dp">
-
-                            <ImageView
-                                android:layout_width="400dp"
-                                android:layout_height="200dp"
-                                android:scaleType="fitEnd"
-                                android:src="@drawable/gh" />
-
-                            <ImageView
-                                android:layout_width="120dp"
-                                android:layout_height="200dp"
-                                android:scaleType="centerCrop"
-                                android:src="@drawable/ghost" />
+                            android:layout_alignParentBottom="true"
+                            android:text="Hacks to help you Handle mental health"
+                            android:textSize="14dp" />
+                    </LinearLayout>
 
 
-
-                        </RelativeLayout>
-
-
-                    </androidx.cardview.widget.CardView>
-
-                    <TextView
+                    <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="If you feel Alone Watch it and you won't be Alone Anymore"
-                        android:layout_alignParentBottom="true"
-                        android:textSize="14dp"
-                        />
+                        android:orientation="vertical">
 
-                </LinearLayout>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="300dp"
+                            android:layout_height="200dp"
+                            android:layout_marginStart="35dp"
+                            android:layout_marginEnd="13dp"
+                            android:backgroundTint="#FF5722">
+
+                            <RelativeLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="45dp">
+
+                                <ImageView
+                                    android:layout_width="400dp"
+                                    android:layout_height="200dp"
+                                    android:scaleType="fitEnd"
+                                    android:src="@drawable/gh" />
+
+                                <ImageView
+                                    android:layout_width="120dp"
+                                    android:layout_height="200dp"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/ghost" />
+
+
+                            </RelativeLayout>
+
+
+                        </androidx.cardview.widget.CardView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:text="If you feel Alone Watch it and you won't be Alone Anymore"
+                            android:textSize="14dp" />
+
+                    </LinearLayout>
 
 
                 </LinearLayout>
@@ -497,9 +481,9 @@
 
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_marginTop="30dp"
-                android:layout_marginBottom="23dp"
-                android:layout_height="match_parent">
+                android:layout_marginBottom="23dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -511,43 +495,43 @@
                         android:layout_height="wrap_content"
                         android:text="There's so much more to explore
                         Try these topics:"
+                        android:textColor="@color/black"
                         android:textSize="23dp"
-                        android:textColor="@color/black"
                         android:textStyle="bold" />
-                   <TextView
-                       android:layout_width="wrap_content"
-                       android:layout_height="wrap_content"
-                       android:background="@color/white"
-                       android:textColor="@color/black"
-                       android:text="Education"
-                       android:textSize="15dp"
-                       />
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@color/white"
+                        android:text="Education"
                         android:textColor="@color/black"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
+                        android:background="@color/white"
                         android:text="Health &amp; Fitness"
-                        android:textSize="16dp"
-                        />
+                        android:textColor="@color/black"
+                        android:textSize="16dp" />
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@color/white"
-                        android:textColor="@color/black"
                         android:text="Biographies"
-                        android:textSize="15dp"
-                        />
+                        android:textColor="@color/black"
+                        android:textSize="15dp" />
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@color/white"
-                        android:textColor="@color/black"
                         android:layout_gravity="center_horizontal|end"
+                        android:background="@color/white"
                         android:text="Money &amp; Investing"
-                        android:textSize="15dp"
-                        />
+                        android:textColor="@color/black"
+                        android:textSize="15dp" />
 
 
                 </LinearLayout>
@@ -557,8 +541,7 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="98dp"
-                android:backgroundTint="@color/white"
-                />
+                android:backgroundTint="@color/white" />
 
         </LinearLayout>
     </androidx.core.widget.NestedScrollView>

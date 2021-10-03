@@ -16,9 +16,3 @@ interface OnItemHome {
     fun onFictionalBook(fiction :com.example.uptimeapp.Mvvm.Model2.BestBook.Item,pos:Int)
 
 }
-
-interface OnBookReader{
-
-    fun OnBookReader(bookhack :BookHackModel)
-
-}

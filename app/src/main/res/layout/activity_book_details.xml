@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:background="@color/black"
     android:orientation="vertical"
-    tools:context=".BookDetails">
+    tools:context=".BookDetailsActivity">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -31,6 +31,7 @@
                 <TextView
                     android:id="@+id/name"
                     android:layout_width="wrap_content"
+                    android:layout_marginTop="5dp"
                     android:layout_height="wrap_content"
                     android:text="title"
                     android:textStyle="bold" />
@@ -39,6 +40,7 @@
                     android:id="@+id/writer"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
                     android:text="title" />
 
             </androidx.appcompat.widget.LinearLayoutCompat>
@@ -80,6 +82,8 @@
             android:id="@+id/content"
             android:layout_width="300dp"
             android:layout_height="300dp"
+            android:textColor="@color/white"
+            android:textSize="16sp"
             android:layout_centerInParent="true" />
 
     </RelativeLayout>
