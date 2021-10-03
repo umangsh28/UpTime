@@ -17,7 +17,6 @@
         <activity
             android:name=".InHomeFragement.BookReader"
             android:exported="true" />
-        tools:ignore="AllowBackup">
         <activity
             android:name=".PaymentActivity"
             android:exported="true"
@@ -31,7 +30,9 @@
             android:exported="true" />
         <activity
             android:name=".MainActivity"
-            android:windowSoftInputMode="adjustPan"
+            android:windowSoftInputMode="adjustPan"/>
+        <activity
+            android:name=".SplashActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
