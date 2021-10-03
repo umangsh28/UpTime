@@ -24,7 +24,7 @@ class BusinessHolder(var itemVie: View, val listener: OnItemHome) : RecyclerView
             Glide.with(itemVie.ImgBook.context).load(mUri)
                 .into(itemVie.ImgBook)
             itemVie.Bauthor.text = data.volumeInfo.title.toString()
-            itemVie.Bname.text = data.volumeInfo.authors.toString()
+            itemVie.Bname.text = data.volumeInfo.authors[0].toString()
 
         }
         itemVie.setOnClickListener{

@@ -27,7 +27,7 @@ class ThrillerHolder(var itemVie: View,val listener: OnItemHome) : RecyclerView.
             itemVie.Bauthor.text = data.volumeInfo.title.toString()
 
 
-            itemVie.Bname.text = data.volumeInfo.authors.toString()
+            itemVie.Bname.text = data.volumeInfo.authors[0].toString()
 
 
         }

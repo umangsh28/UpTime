@@ -17,7 +17,7 @@ class TrendHolder(private val itemVie : View,val listener:OnItemHome)
             Glide.with(itemVie.ImgBook.context).load(data.thumbnailUrl)
                 .into(itemVie.ImgBook)
             itemVie.Bauthor.text = data.title
-            itemVie.Bname.text = data.authors.toString()
+            itemVie.Bname.text = data.authors[0].toString()
         }
 
 

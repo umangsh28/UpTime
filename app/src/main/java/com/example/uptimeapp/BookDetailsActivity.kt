@@ -54,10 +54,7 @@ class BookDetailsActivity : AppCompatActivity() {
             }
         }
         thread.start()
-        findViewById<TextView>(R.id.rl3)
-        val animation=AnimationUtils.loadAnimation(this,R.anim.nav_default_pop_enter_anim)
-        animation.duration=5000
-        rl3.startAnimation(animation)
+
     }
 
 

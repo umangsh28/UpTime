@@ -11,7 +11,7 @@ data class BookListItem(
     @SerializedName("isbn")
     val isbn: String,
     @SerializedName("longDescription")
-    val longDescription: String,
+    val longDescription: String?,
     @SerializedName("pageCount")
     val pageCount: Int,
     @SerializedName("publishedDate")

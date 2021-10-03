@@ -23,6 +23,7 @@ import com.example.uptimeapp.Recycler.BestBook.FictionAdapter
 import com.example.uptimeapp.Recycler.ForYou.ThrillerAdapter
 import com.example.uptimeapp.Recycler.PopularChoice.BusinessAdapter
 import com.example.uptimeapp.Recycler.Trend.TrendAdapter
+import kotlinx.android.synthetic.main.activity_book_details.*
 import kotlinx.android.synthetic.main.fragment_home.*
 import retrofit2.Call
 import retrofit2.Callback
@@ -165,10 +166,15 @@ class HomeFragment : Fragment(R.layout.fragment_home), OnItemHome {
 
     override fun onTrendBook(result: BookListItem, pos: Int) {
 
-        swithchToBookDetails(result.title, result.authors[0], result.longDescription)
+        if(result.longDescription!=null) {
+            swithchToBookDetails(result.title, result.authors[0], result.longDescription)
+        }else{
+            swithchToBookDetails(result.title, result.authors[0]," Premium required to read this")
+        }
     }
 
     override fun onBusinessBook(business: Item, pos: Int) {
+
 
         swithchToBookDetails(
             business.volumeInfo.title,
