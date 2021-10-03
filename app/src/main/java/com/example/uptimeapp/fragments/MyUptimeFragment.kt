@@ -17,5 +17,14 @@ class MyUptimeFragment : Fragment(R.layout.fragment_my_uptime) {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
+
+
+
+
+
+
+
+
+
     }
 }

@@ -4,6 +4,7 @@ plugins {
     id 'kotlin-kapt'
     id 'kotlin-android-extensions'
     id 'com.google.gms.google-services'
+
 }
 
 android {
@@ -114,6 +115,13 @@ dependencies {
     implementation "androidx.lifecycle:lifecycle-runtime-ktx:$arch_version"
 
 
+
+    // Firebase Auth
+    implementation 'com.jpardogo.googleprogressbar:library:1.2.0'
+    implementation 'com.google.firebase:firebase-auth-ktx:21.0.1'
+    implementation 'com.google.android.gms:play-services-auth:19.2.0'
+
+    implementation 'com.google.firebase:firebase-core:19.0.1'
 
 
 
