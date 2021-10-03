@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="9"
-        android:background="@drawable/book_details_bg"
+        android:background="@drawable/finalcover"
         android:orientation="vertical">
 
         <RelativeLayout
@@ -81,10 +81,12 @@
         <TextView
             android:id="@+id/content"
             android:layout_width="300dp"
-            android:layout_height="300dp"
+            android:layout_height="wrap_content"
+
             android:layout_centerInParent="true"
-            android:textColor="@color/white"
-            android:textSize="16sp" />
+            android:textColor="#433E40"
+            android:textSize="15sp"
+            android:textStyle="normal" />
 
     </RelativeLayout>
 
@@ -183,6 +185,10 @@
                 android:text="Share"
                 android:textColor="@color/white" />
 
+
+
+
+
         </RelativeLayout>
 
         <RelativeLayout
@@ -213,7 +219,7 @@
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_centerInParent="true"
+                        android:layout_centerVertical="true"
                         android:src="@drawable/ic_more"
                         tools:ignore="ContentDescription" />
 
@@ -225,9 +231,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
-                android:layout_marginStart="10dp"
+                android:textSize="11dp"
                 android:layout_toEndOf="@+id/rl3"
-                android:text="Switch audio"
+                android:text="Play/Stop audio"
                 android:textColor="@color/white" />
 
         </RelativeLayout>

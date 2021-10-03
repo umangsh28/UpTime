@@ -3,6 +3,8 @@ package com.example.uptimeapp
 import android.os.Bundle
 import android.speech.tts.TextToSpeech
 import android.view.View
+import android.view.animation.AnimationUtils
+import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_book_details.*
 import kotlinx.coroutines.CoroutineScope
@@ -52,9 +54,20 @@ class BookDetailsActivity : AppCompatActivity() {
             }
         }
         thread.start()
+        findViewById<TextView>(R.id.rl3)
+        val animation=AnimationUtils.loadAnimation(this,R.anim.nav_default_pop_enter_anim)
+        animation.duration=5000
+        rl3.startAnimation(animation)
     }
 
+
+
     private fun startAudio(s: String) {
-        mTTs.speak(s, TextToSpeech.QUEUE_FLUSH, null, "")
+
+        if(mTTs.isSpeaking) {
+            mTTs.stop()
+        }else{
+            mTTs.speak(s, TextToSpeech.QUEUE_FLUSH, null, "")
+        }
     }
 }
