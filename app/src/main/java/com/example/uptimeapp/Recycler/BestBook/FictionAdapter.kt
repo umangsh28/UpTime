@@ -26,7 +26,7 @@ class FictionAdapter() : RecyclerView.Adapter<FictionHolder>() {
 
     override fun onBindViewHolder(holder: FictionHolder, position: Int) {
         val data: Item = result1!!.items[position]
-        holder.setData(data,position)
+        holder.setData(data)
     }
 
     override fun getItemCount(): Int {

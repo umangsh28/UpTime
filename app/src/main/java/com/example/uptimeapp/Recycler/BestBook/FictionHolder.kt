@@ -12,13 +12,13 @@ import kotlinx.android.synthetic.main.itemdesign.view.*
 class FictionHolder(var itemVie: View,val listener: OnItemHome) :RecyclerView.ViewHolder(itemVie) {
 
 
-    fun setData(data: Item,pos:Int) {
+    fun setData(data: Item) {
 
 
         itemVie.apply{
 
 
-            var mUri : Uri  = data.volumeInfo.imageLinks.thumbnail.toUri()
+            val mUri : Uri  = data.volumeInfo.imageLinks.thumbnail.toUri()
 
 
             Glide.with(itemVie.ImgBook.context).load(mUri)
