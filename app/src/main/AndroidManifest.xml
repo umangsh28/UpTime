@@ -14,6 +14,9 @@
         android:theme="@style/Theme.UpTimeApp"
         tools:ignore="AllowBackup">
         <activity
+            android:name=".ConnectorActivity"
+            android:exported="true" />
+        <activity
             android:name=".PaymentActivity"
             android:exported="true"
             android:label="@string/title_activity_payment"
