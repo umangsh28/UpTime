@@ -79,8 +79,9 @@ class BrowseFragment : Fragment(R.layout.fragment_browse), View.OnClickListener 
                         }
                     }
 
-                    recyclerView.adapter = SearchResultAdapter(list)
-                    SearchResultAdapter(list).notifyDataSetChanged()
+                    val adapter = context?.let { SearchResultAdapter(list, it) }
+                    recyclerView.adapter = adapter
+                    adapter?.notifyDataSetChanged()
                 }
             }
 

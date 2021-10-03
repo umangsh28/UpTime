@@ -10,7 +10,7 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import java.util.*
 
-class BookDetails : AppCompatActivity() {
+class BookDetailsActivity : AppCompatActivity() {
 
     private lateinit var mTTs: TextToSpeech
     private lateinit var thread: Thread
@@ -23,6 +23,7 @@ class BookDetails : AppCompatActivity() {
         writer.text = intent.getStringExtra("writer")
         val s = intent.getStringExtra("desc")
 
+        content.text = s
         finish.setOnClickListener { finish() }
         switchToAudio.setOnClickListener { startAudio(s!!) }
 
@@ -51,11 +52,6 @@ class BookDetails : AppCompatActivity() {
             }
         }
         thread.start()
-    }
-
-    override fun onDestroy() {
-        super.onDestroy()
-        thread.stop()
     }
 
     private fun startAudio(s: String) {

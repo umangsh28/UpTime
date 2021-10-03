@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frame"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/dribble2"
-    android:id="@+id/frame"
     tools:context=".InHomeFragement.BookReader">
 
 
@@ -13,36 +12,33 @@
         android:id="@+id/text1"
         android:layout_width="245dp"
         android:layout_height="347dp"
-        android:layout_gravity="center"
         android:layout_centerInParent="true"
+        android:layout_gravity="center"
         android:textColor="#BC0B0B" />
 
     <TextView
+        android:id="@+id/text2"
         android:layout_width="245dp"
         android:layout_height="347dp"
-        android:id="@+id/text2"
-        android:layout_gravity="center"
-        android:textColor="#BC0B0B"
         android:layout_centerInParent="true"
-        />
+        android:layout_gravity="center"
+        android:textColor="#BC0B0B" />
 
     <TextView
+        android:id="@+id/text33"
         android:layout_width="245dp"
         android:layout_height="347dp"
-        android:id="@+id/text33"
         android:layout_centerInParent="true"
         android:layout_gravity="center"
-        android:textColor="#BC0B0B"
-       />
+        android:textColor="#BC0B0B" />
 
     <TextView
         android:id="@+id/text44"
         android:layout_width="245dp"
         android:layout_height="347dp"
         android:layout_centerInParent="true"
-        android:textColor="#BC0B0B"
-        android:layout_gravity="center" />
-
+        android:layout_gravity="center"
+        android:textColor="#BC0B0B" />
 
 
 
