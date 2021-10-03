@@ -1,74 +1,160 @@
 package com.example.uptimeapp
 
+import android.annotation.SuppressLint
 import android.os.Bundle
-import android.widget.Toast
+import android.view.View
 import androidx.appcompat.app.AppCompatActivity
-import com.google.firebase.database.DataSnapshot
-import com.google.firebase.database.DatabaseError
-import com.google.firebase.database.FirebaseDatabase
-import com.google.firebase.database.ValueEventListener
+import androidx.lifecycle.ViewModelProviders
+import androidx.recyclerview.widget.GridLayoutManager
+import androidx.recyclerview.widget.LinearLayoutManager
+import com.example.uptimeapp.bookhack.interfaces.BookHacksDataLoadListener
+import com.example.uptimeapp.bookhack.ui.BookHackAdapter
+import com.example.uptimeapp.bookhack.viewmodel.BookViewModel
+import com.example.uptimeapp.collection.interfaces.CollectionDataLoadListener
+import com.example.uptimeapp.collection.ui.CollectionsAdapter
+import com.example.uptimeapp.collection.viewmodel.CollectionsViewModel
+import com.example.uptimeapp.coursehack.interfaces.CourseHacksDataLoadListener
+import com.example.uptimeapp.coursehack.ui.CourseHackAdapter
+import com.example.uptimeapp.coursehack.viewmodel.CourseViewModel
+import com.example.uptimeapp.documentaryhack.interfaces.DocumentaryHacksDataLoadListener
+import com.example.uptimeapp.documentaryhack.ui.DocumentaryHackAdapter
+import com.example.uptimeapp.documentaryhack.viewmodel.DocumentaryViewModel
 import kotlinx.android.synthetic.main.activity_deep_dive.*
 
-class DeepDiveActivity : AppCompatActivity() {
+class DeepDiveActivity : AppCompatActivity(), BookHacksDataLoadListener,
+    CourseHacksDataLoadListener, DocumentaryHacksDataLoadListener, CollectionDataLoadListener {
+
+    lateinit var bookViewModel: BookViewModel
+    lateinit var courseViewModel: CourseViewModel
+    lateinit var documentaryViewModel: DocumentaryViewModel
+    lateinit var collectionsViewModel: CollectionsViewModel
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_deep_dive)
 
+        back.setOnClickListener{finish()}
+
         val value = intent.getStringExtra("key")
 
         if (value != null) {
-            if (value.lowercase().contains("collections")){
-                loadCollectionsData()
+
+            when {
+                value.lowercase().contains("collections") -> {
+                    loadCollectionsData("Collections")
+                }
+                value.lowercase().contains("bookhacks") -> {
+                    loadBooksData("Book Hacks")
+                }
+                value.lowercase().contains("trendinghacks") -> {
+                    loadBooksData("Trending Hacks")
+                }
+                value.lowercase().contains("coursehacks") -> {
+                    loadCourseHackData("Course Hacks")
+                }
+                value.lowercase().contains("documentaryhacks") -> {
+                    loadDocumentaryData("Documentary Hacks")
+                }
+                value.lowercase().contains("uptimerecommends") -> {
+                    loadDocumentaryData("Uptime Recommends")
+                }
+                value.lowercase().contains("newhacks") -> {
+                    loadDocumentaryData("New Hacks")
+                }
+                else -> loadBooksData("Topics")
             }
         }
     }
 
-    private fun loadCollectionsData() {
+    @SuppressLint("SetTextI18n")
+    private fun loadCollectionsData(title: String) {
 
-        val list : MutableList<CollectionsModel>? = null
-        val database = FirebaseDatabase.getInstance().reference
+        toolbarText.text = title
+        collectionsViewModel = ViewModelProviders.of(this).get(CollectionsViewModel::class.java)
+        collectionsViewModel.init(this)
+        onCollectionDataLoaded()
+    }
 
-        database.child("DeepDive").child("Collections")
-            .addValueEventListener(object : ValueEventListener {
+    @SuppressLint("SetTextI18n", "NotifyDataSetChanged")
+    private fun loadBooksData(title: String) {
 
-                override fun onDataChange(snapshot: DataSnapshot) {
+        toolbarText.text = title
+        bookViewModel = ViewModelProviders.of(this).get(BookViewModel::class.java)
+        bookViewModel.init(this)
+        onBookHacksDataLoaded()
+    }
 
-                    if (snapshot.exists()){
+    @SuppressLint("SetTextI18n")
+    private fun loadCourseHackData(title: String) {
 
-                        for (data in snapshot.children) {
+        toolbarText.text = title
+        courseViewModel = ViewModelProviders.of(this).get(CourseViewModel::class.java)
+        courseViewModel.init(this)
+        onCourseHacksDataLoaded()
+    }
 
-                            val model = data.getValue(CollectionsModel::class.java)
+    @SuppressLint("SetTextI18n")
+    private fun loadDocumentaryData(title: String) {
 
-                            if (model != null) {
+        toolbarText.text = title
+        documentaryViewModel = ViewModelProviders.of(this).get(DocumentaryViewModel::class.java)
+        documentaryViewModel.init(this)
+        onDocumentaryHacksDataLoaded()
+    }
 
-                                list?.add(model)
-                            }
-                        }
+    @SuppressLint("NotifyDataSetChanged")
+    override fun onBookHacksDataLoaded() {
 
-                        if (list != null) {
-                            if (list.size == 0){
-                                Toast.makeText(this@DeepDiveActivity, "Data", Toast.LENGTH_LONG).show()
-                            }else{
+        bookViewModel.geData().observe(this, {
 
-                                Toast.makeText(this@DeepDiveActivity, "Data not f", Toast.LENGTH_LONG).show()
-                            }
-                        }
+            if (it.isNotEmpty()) progressBar.visibility = View.GONE
 
-                        list?.shuffle()
+            recyclerView.layoutManager = GridLayoutManager(this, 2)
+            val adapter = BookHackAdapter(it, "Book Hacks")
+            recyclerView.adapter = adapter
+            adapter.notifyDataSetChanged()
+        })
+    }
 
-                        val adapter = list?.let { CollectionsAdapter(it) }
-                        recyclerView.adapter = adapter
-                        adapter?.notifyDataSetChanged()
+    @SuppressLint("NotifyDataSetChanged")
+    override fun onCourseHacksDataLoaded() {
 
-                    } else{
+        courseViewModel.geData().observe(this, {
 
-                        Toast.makeText(this@DeepDiveActivity, "Data not found", Toast.LENGTH_LONG).show()
-                    }
-                }
+            if (it.isNotEmpty()) progressBar.visibility = View.GONE
 
-                override fun onCancelled(error: DatabaseError) {
-                    Toast.makeText(this@DeepDiveActivity, error.message, Toast.LENGTH_LONG).show()
-                }
-            })
+            recyclerView.layoutManager = GridLayoutManager(this, 2)
+            val adapter = CourseHackAdapter(it, "Course Hacks")
+            recyclerView.adapter = adapter
+            adapter.notifyDataSetChanged()
+        })
+    }
+
+    @SuppressLint("NotifyDataSetChanged")
+    override fun onDocumentaryHacksDataLoaded() {
+
+        documentaryViewModel.geData().observe(this, {
+
+            if (it.isNotEmpty()) progressBar.visibility = View.GONE
+
+            recyclerView.layoutManager = GridLayoutManager(this, 2)
+            val adapter = DocumentaryHackAdapter(it, "Documentary Hacks")
+            recyclerView.adapter = adapter
+            adapter.notifyDataSetChanged()
+        })
+    }
+
+    @SuppressLint("NotifyDataSetChanged")
+    override fun onCollectionDataLoaded() {
+
+        collectionsViewModel.geData().observe(this, {
+
+            if (it.isNotEmpty()) progressBar.visibility = View.GONE
+
+            recyclerView.layoutManager = LinearLayoutManager(this)
+            val adapter = CollectionsAdapter(it)
+            recyclerView.adapter = adapter
+            adapter.notifyDataSetChanged()
+        })
     }
 }
