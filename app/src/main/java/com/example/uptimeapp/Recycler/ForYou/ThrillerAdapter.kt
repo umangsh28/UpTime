@@ -8,21 +8,24 @@ import com.example.uptimeapp.Mvvm.Model2.BestBook.FictionList
 import com.example.uptimeapp.Mvvm.Model2.ForYou.Item
 
 import com.example.uptimeapp.Mvvm.Model2.ForYou.ThrillerList
+import com.example.uptimeapp.Mvvm.OnClickListner.OnItemHome
 import com.example.uptimeapp.R
 import com.example.uptimeapp.Recycler.BestBook.FictionHolder
 
 class ThrillerAdapter() : RecyclerView.Adapter<ThrillerHolder>() {
 
     private var result1 : ThrillerList?=null
+    private var clicklistener: OnItemHome?=null
 
-    constructor(responseDTO: ThrillerList) : this() {
+    constructor(responseDTO: ThrillerList,clicklistener:OnItemHome) : this() {
         this.result1=responseDTO
+        this.clicklistener=clicklistener
     }
 
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ThrillerHolder {
         val view = LayoutInflater.from(parent.context).inflate(R.layout.itemdesign, parent, false)
-        return ThrillerHolder(view)
+        return ThrillerHolder(view,clicklistener!!)
     }
 
     override fun onBindViewHolder(holder: ThrillerHolder, position: Int) {

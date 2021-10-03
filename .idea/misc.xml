@@ -3,9 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/hp/Desktop/UpTime/app/src/main/res/drawable/bookreader.xml" value="0.1" />
         <entry key="..\:/Users/hp/Desktop/UpTime/app/src/main/res/drawable/ic_asterisk_symbol.xml" value="0.14635416666666667" />
         <entry key="..\:/Users/hp/Desktop/UpTime/app/src/main/res/drawable/ic_baseline_arrow_forward_ios_24.xml" value="0.14635416666666667" />
         <entry key="..\:/Users/hp/Desktop/UpTime/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/hp/Desktop/UpTime/app/src/main/res/layout/activity_book_reader.xml" value="0.1" />
         <entry key="..\:/Users/hp/Desktop/UpTime/app/src/main/res/layout/activity_deep_dive.xml" value="0.144" />
         <entry key="..\:/Users/hp/Desktop/UpTime/app/src/main/res/layout/activity_main.xml" value="0.2128623188405797" />
         <entry key="..\:/Users/hp/Desktop/UpTime/app/src/main/res/layout/collection_row_item.xml" value="0.1" />
