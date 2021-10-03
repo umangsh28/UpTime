@@ -6,21 +6,26 @@ import androidx.recyclerview.widget.RecyclerView
 
 import com.example.uptimeapp.Mvvm.Model2.TrendingBook.BookList
 import com.example.uptimeapp.Mvvm.Model2.TrendingBook.BookListItem
+import com.example.uptimeapp.Mvvm.OnClickListner.OnItemHome
 import com.example.uptimeapp.R
+import com.example.uptimeapp.fragments.HomeFragment
 
 
 class TrendAdapter(): RecyclerView.Adapter<TrendHolder>() {
 
 
     private var result1 : BookList?=null
+    private var clicklistener: OnItemHome?=null
 
-    constructor(responseDTO: BookList) : this() {
+    constructor(responseDTO: BookList,clicklistener:OnItemHome) : this() {
         this.result1=responseDTO
+        this.clicklistener=clicklistener
+
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): TrendHolder {
         val view = LayoutInflater.from(parent.context).inflate(R.layout.itemdesign, parent, false)
-        return TrendHolder(view)
+        return TrendHolder(view,clicklistener!!)
     }
 
     override fun onBindViewHolder(holder: TrendHolder, position: Int) {
