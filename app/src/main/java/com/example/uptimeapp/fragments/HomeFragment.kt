@@ -166,7 +166,14 @@ class HomeFragment : Fragment(R.layout.fragment_home),OnItemHome{
 
 
 
+
+
         intent.putExtra("dataa",result.longDescription)
+        intent.putExtra("dataa1",result.authors.toString())
+        intent.putExtra("dataa1",result.title.toString())
+        intent.putExtra("dataa1",result.thumbnailUrl.toString())
+
+
 
         startActivity(intent)
     }

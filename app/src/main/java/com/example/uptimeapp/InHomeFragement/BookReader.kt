@@ -11,6 +11,7 @@ import kotlinx.android.synthetic.main.fragment_browse.*
 import android.R
 import android.R.anim.accelerate_decelerate_interpolator
 import android.annotation.SuppressLint
+import android.content.Intent
 import android.os.Handler
 
 
@@ -18,6 +19,7 @@ import android.view.View
 import android.view.animation.Animation
 import android.widget.TextView
 import androidx.core.graphics.rotationMatrix
+import com.example.uptimeapp.fragments.SparksFragment
 
 
 class BookReader : AppCompatActivity() {
@@ -36,6 +38,8 @@ class BookReader : AppCompatActivity() {
 
 
         animation()
+
+
 
 
 
