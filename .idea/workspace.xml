@@ -10,21 +10,29 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="ok" />
     <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
-    <option name="TOOL_WINDOW_REGEXP_FILTER" value="false" />
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="Tag" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="info" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a55bb662-4d4c-4b5f-bebe-d3c2d8ca4af1" name="Default Changelist" comment="Updated HomeFragment.kt" />
+    <list default="true" id="a55bb662-4d4c-4b5f-bebe-d3c2d8ca4af1" name="Default Changelist" comment="umang commit 3oct again">
+      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/uptimeapp/SearchResultAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/uptimeapp/SearchResultAdapter.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[192.168.20.251:5555]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -66,23 +74,9 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
-  </component>
-  <component name="GitSEFilterConfiguration">
-    <file-type-list>
-      <filtered-out-file-type name="LOCAL_BRANCH" />
-      <filtered-out-file-type name="REMOTE_BRANCH" />
-      <filtered-out-file-type name="TAG" />
-      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
-    </file-type-list>
-  </component>
-  <component name="GithubDefaultAccount">
-    <option name="defaultAccountId" value="40722cbe-691f-404d-aa24-8dd2be7b2cb6" />
   </component>
   <component name="ProjectId" id="1yl6IiOrZFqOjsOPEo5RW6Ovk9c" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="1" id="Add" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -93,7 +87,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.recentlyUsedThemes" value="Theme.Design&#10;Theme.MaterialComponents" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -103,14 +97,11 @@
     <key name="android.template.1905884014">
       <recent name="com.example.uptimeapp.InHomeFragement" />
     </key>
-    <key name="android.template.-1509509488">
-      <recent name="com.example.uptimeapp" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\offic\AndroidStudioProjects\UpTime2\app\src\main\res\drawable" />
       <recent name="C:\Users\hp\Desktop\UpTime\app\src\main\res\drawable" />
       <recent name="C:\Users\hp\Desktop\UpTime\app\src\main\java\com\example\uptimeapp" />
       <recent name="C:\Users\hp\Desktop\UpTime\app" />
+      <recent name="C:\Users\offic\AndroidStudioProjects\UpTime2\app\src\main\res\drawable" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\hp\Desktop\UpTime\app\src\main\res\drawable" />
@@ -237,28 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633245055337</updated>
     </task>
-    <task id="LOCAL-00007" summary="Updated BrowseFragment UI">
-      <created>1633255086673</created>
+    <task id="LOCAL-00007" summary="umang commit 3oct again">
+      <created>1633250497622</created>
       <option name="number" value="00007" />
       <option name="presentableId" value="LOCAL-00007" />
       <option name="project" value="LOCAL" />
-      <updated>1633255086673</updated>
+      <updated>1633250497622</updated>
     </task>
-    <task id="LOCAL-00008" summary="Updated SplashActivity.kt">
-      <created>1633256058856</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1633256058857</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Updated HomeFragment.kt">
-      <created>1633266293967</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1633266293967</updated>
-    </task>
-    <option name="localTasksCounter" value="10" />
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -278,9 +255,7 @@
     <MESSAGE value="Added TopicActivity and DeedDive Activity" />
     <MESSAGE value="umang dummy commit2" />
     <MESSAGE value="semi final commit" />
-    <MESSAGE value="Updated BrowseFragment UI" />
-    <MESSAGE value="Updated SplashActivity.kt" />
-    <MESSAGE value="Updated HomeFragment.kt" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated HomeFragment.kt" />
+    <MESSAGE value="umang commit 3oct again" />
+    <option name="LAST_COMMIT_MESSAGE" value="umang commit 3oct again" />
   </component>
 </project>
