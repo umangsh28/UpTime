@@ -20,18 +20,23 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="72d216a8-eb02-4327-b773-fa238a9c70e6" name="Default Changelist" comment="Added BookDetails Activity" />
-    <list default="true" id="a55bb662-4d4c-4b5f-bebe-d3c2d8ca4af1" name="Default Changelist" comment="umang dummy commit2">
+    <list default="true" id="a55bb662-4d4c-4b5f-bebe-d3c2d8ca4af1" name="Default Changelist" comment="umang commit 3oct changes in payment">
       <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/app/UpTime_App.app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/UpTime_App.app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_payment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_payment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/uptimeapp/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/uptimeapp/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/uptimeapp/Mvvm/OnClickListner/ItemClickListener.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/uptimeapp/Mvvm/OnClickListner/ItemClickListener.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/uptimeapp/Mvvm/Repo/Urepositary.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/uptimeapp/Mvvm/ViewModel/UviewFactory.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/uptimeapp/Mvvm/ViewModel/UviewModel.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/uptimeapp/SearchResultAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/uptimeapp/SearchResultAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/uptimeapp/fragments/BrowseFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/uptimeapp/fragments/BrowseFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_browse.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_browse.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,11 +72,8 @@
         <option value="Class" />
         <option value="Kotlin Interface" />
         <option value="layoutResourceFile" />
-        <option value="Class" />
-        <option value="Kotlin Interface" />
         <option value="Kotlin Class" />
         <option value="valueResourceFile" />
-        <option value="resourceFile" />
         <option value="resourceFile" />
       </list>
     </option>
@@ -79,18 +81,13 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Vipin" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GithubDefaultAccount">
-    <option name="defaultAccountId" value="bd1a9c41-c3e8-4114-a2d9-eb92b6189f29" />
-  </component>
   <component name="ProjectId" id="1yl6IiOrZFqOjsOPEo5RW6Ovk9c" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="1" id="Add" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -101,8 +98,6 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.recentlyUsedThemes" value="Theme.Design&#10;Theme.MaterialComponents" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.17" />
@@ -118,21 +113,6 @@
       <recent name="C:\Users\hp\Desktop\UpTime\app\src\main\java\com\example\uptimeapp" />
       <recent name="C:\Users\hp\Desktop\UpTime\app" />
       <recent name="C:\Users\offic\AndroidStudioProjects\UpTime2\app\src\main\res\drawable" />
-      <recent name="C:\Users\offic\AndroidStudioProjects\UpTime2\app\src\main\res\layout" />
-      <recent name="C:\Users\offic\AndroidStudioProjects\UpTime2\app\src\main\java\com\example\uptimeapp" />
-      <recent name="C:\Users\offic\AndroidStudioProjects\UpTime2\app\src" />
-      <recent name="C:\Users\offic\AndroidStudioProjects\UpTime2\app" />
-    </key>
-    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
-      <recent name="com.example.uptimeapp.collection.ui" />
-      <recent name="com.example.uptimeapp.collection.model" />
-      <recent name="com.example.uptimeapp.coursehack.model" />
-      <recent name="com.example.uptimeapp.coursehack.ui" />
-      <recent name="com.example.uptimeapp.bookhack.interfaces" />
-    </key>
-    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
-      <recent name="com.example.uptimeapp.documentaryhack.ui" />
-      <recent name="com.example.uptimeapp" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\hp\Desktop\UpTime\app\src\main\res\drawable" />
@@ -145,9 +125,6 @@
       <recent name="com.example.uptimeapp.Mvvm.Model2.BookData.D.Trending" />
     </key>
     <key name="android.template.-1675671398">
-      <recent name="com.example.uptimeapp" />
-    </key>
-    <key name="android.template.1630897666">
       <recent name="com.example.uptimeapp" />
     </key>
   </component>
@@ -214,7 +191,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="72d216a8-eb02-4327-b773-fa238a9c70e6" name="Default Changelist" comment="" />
+      <changelist id="a55bb662-4d4c-4b5f-bebe-d3c2d8ca4af1" name="Default Changelist" comment="umang dummy commit" />
       <created>1632813750418</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -241,42 +218,28 @@
       <option name="project" value="LOCAL" />
       <updated>1632828569200</updated>
     </task>
-    <task id="LOCAL-00004" summary="Added Collections Activity">
-      <created>1632922062326</created>
+    <task id="LOCAL-00004" summary="umang dummy commit2">
+      <created>1633114708238</created>
       <option name="number" value="00004" />
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
-      <updated>1632922062327</updated>
+      <updated>1633114708239</updated>
     </task>
-    <task id="LOCAL-00005" summary="Added MVVM architecture in DeepDiveActivity.kt">
-      <created>1633067994199</created>
+    <task id="LOCAL-00005" summary="umang dummy commit2">
+      <created>1633114727285</created>
       <option name="number" value="00005" />
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
-      <updated>1633067994233</updated>
+      <updated>1633114727285</updated>
     </task>
-    <task id="LOCAL-00006" summary="Added MVVM architecture in DeepDiveActivity.kt">
-      <created>1633068021428</created>
+    <task id="LOCAL-00006" summary="semi final commit">
+      <created>1633245055337</created>
       <option name="number" value="00006" />
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
-      <updated>1633068021428</updated>
+      <updated>1633245055337</updated>
     </task>
-    <task id="LOCAL-00007" summary="Added MVVM architecture inside browseFragment.kt">
-      <created>1633091187641</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1633091187641</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Implemented Splash Screen">
-      <created>1633144721737</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1633144721737</updated>
-    </task>
-    <option name="localTasksCounter" value="9" />
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -297,15 +260,5 @@
     <MESSAGE value="umang dummy commit2" />
     <MESSAGE value="semi final commit" />
     <option name="LAST_COMMIT_MESSAGE" value="semi final commit" />
-    <MESSAGE value="Added Collections Activity" />
-    <MESSAGE value="Added MVVM architecture in DeepDiveActivity.kt" />
-    <MESSAGE value="Added MVVM architecture inside browseFragment.kt" />
-    <MESSAGE value="Implemented Splash Screen" />
-    <MESSAGE value="Added BookDetails Activity" />
-    <MESSAGE value="Added Collections Activity" />
-    <MESSAGE value="Added MVVM architecture in DeepDiveActivity.kt" />
-    <MESSAGE value="Added MVVM architecture inside browseFragment.kt" />
-    <MESSAGE value="Implemented Splash Screen" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented Splash Screen" />
   </component>
 </project>

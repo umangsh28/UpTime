@@ -2,6 +2,7 @@ package com.example.uptimeapp.Mvvm.OnClickListner
 
 import com.example.uptimeapp.Mvvm.Model2.PopularChoice.Item
 import com.example.uptimeapp.Mvvm.Model2.TrendingBook.BookListItem
+import com.example.uptimeapp.bookhack.model.BookHackModel
 
 
 interface OnItemHome {
@@ -13,5 +14,11 @@ interface OnItemHome {
     fun onThrillerBook(thriller:com.example.uptimeapp.Mvvm.Model2.ForYou.Item,pos : Int)
 
     fun onFictionalBook(fiction :com.example.uptimeapp.Mvvm.Model2.BestBook.Item,pos:Int)
+
+}
+
+interface OnBookReader{
+
+    fun OnBookReader(bookhack :BookHackModel)
 
 }
