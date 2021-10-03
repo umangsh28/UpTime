@@ -1,18 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:orientation="vertical"
     android:layout_height="match_parent"
     tools:context=".AuthActivity">
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="matrix"
+        android:src="@drawable/signing_background" />
+    <Button
+        android:backgroundTint="#00ab71"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@id/image1"
+        android:text="Sign In"/>
+
     <Button
         android:id="@+id/google_signIn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
+        android:layout_above="@id/moreOption_signIn"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="@color/white"
+        android:drawableEnd="@drawable/ic_google"
+        android:text="SignIn with Google"
+        android:textAllCaps="false"
+        android:textColor="@color/black" />
+    <Button
+        android:id="@+id/moreOption_signIn"
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
         android:elevation="8dp"
-        android:text="Sign In with Google"
-        android:textColor="#fff" />
+        android:text="More Option"
+        android:textColor="@color/white" />
 
 
-</LinearLayout>
+
+
+</RelativeLayout>
