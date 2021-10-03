@@ -14,7 +14,7 @@
         android:theme="@style/Theme.UpTimeApp"
         tools:ignore="AllowBackup">
         <activity
-            android:name=".ConnectorActivity"
+            android:name=".MainActivity"
             android:exported="true" />
         <activity
             android:name=".PaymentActivity"
@@ -28,7 +28,7 @@
             android:name=".TopicActivity"
             android:exported="true" />
         <activity
-            android:name=".MainActivity"
+            android:name=".AuthActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
