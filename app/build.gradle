@@ -2,6 +2,7 @@ plugins {
     id 'com.android.application'
     id 'kotlin-android'
     id 'kotlin-android-extensions'
+    id 'com.google.gms.google-services'
 }
 
 android {
@@ -116,7 +117,7 @@ dependencies {
 
 
 
-
+    implementation 'com.google.firebase:firebase-core:19.0.1'
 
 
 
