@@ -40,14 +40,14 @@
                     android:background="@color/white"
                     android:layout_weight="1"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/monthly"/>
+                    app:srcCompat="@drawable/monthly"/>
                 <ImageView
                     android:id="@+id/yearlyPremium"
                     android:layout_width="wrap_content"
                     android:background="@color/white"
                     android:layout_weight="1"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/yearly"/>
+                    app:srcCompat="@drawable/yearly"/>
             </LinearLayout>
             <Button
                 android:id="@+id/btnSaveTodayPremium"

@@ -3,17 +3,25 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/hp/Desktop/UpTime/app/src/main/res/drawable/bookreader.xml" value="0.1" />
+        <entry key="..\:/Users/hp/Desktop/UpTime/app/src/main/res/drawable/ic_asterisk_symbol.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/hp/Desktop/UpTime/app/src/main/res/drawable/ic_baseline_arrow_forward_ios_24.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/hp/Desktop/UpTime/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/hp/Desktop/UpTime/app/src/main/res/layout/activity_book_reader.xml" value="0.1" />
         <entry key="..\:/Users/hp/Desktop/UpTime/app/src/main/res/layout/activity_deep_dive.xml" value="0.144" />
         <entry key="..\:/Users/hp/Desktop/UpTime/app/src/main/res/layout/activity_main.xml" value="0.2128623188405797" />
+        <entry key="..\:/Users/hp/Desktop/UpTime/app/src/main/res/layout/collection_row_item.xml" value="0.1" />
         <entry key="..\:/Users/hp/Desktop/UpTime/app/src/main/res/layout/fragment_browse.xml" value="0.13903985507246377" />
-        <entry key="..\:/Users/hp/Desktop/UpTime/app/src/main/res/layout/fragment_home.xml" value="0.21422101449275363" />
+        <entry key="..\:/Users/hp/Desktop/UpTime/app/src/main/res/layout/fragment_home.xml" value="0.1" />
         <entry key="..\:/Users/hp/Desktop/UpTime/app/src/main/res/layout/fragment_my_uptime.xml" value="0.2128623188405797" />
         <entry key="..\:/Users/hp/Desktop/UpTime/app/src/main/res/layout/fragment_premium.xml" value="0.2128623188405797" />
         <entry key="..\:/Users/hp/Desktop/UpTime/app/src/main/res/layout/fragment_sparks.xml" value="0.2128623188405797" />
-        <entry key="..\:/Users/imrep/Desktop/UpTime/app/src/main/res/drawable/ic_plus.xml" value="0.18333333333333332" />
-        <entry key="..\:/Users/imrep/Desktop/UpTime/app/src/main/res/layout/activity_main.xml" value="0.1334853090172239" />
-        <entry key="..\:/Users/imrep/Desktop/UpTime/app/src/main/res/layout/fragment_sparks.xml" value="0.1334853090172239" />
-        <entry key="..\:/Users/imrep/Desktop/UpTime/app/src/main/res/layout/progress_wait.xml" value="0.1334853090172239" />
+        <entry key="..\:/Users/hp/Desktop/UpTime/app/src/main/res/layout/itemcollection.xml" value="0.213768115942029" />
+        <entry key="..\:/Users/hp/Desktop/UpTime/app/src/main/res/layout/itemdesign.xml" value="0.1" />
+        <entry key="..\:/Users/hp/Desktop/upTimeCopyxx/app/src/main/res/layout/activity_deep_dive.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/hp/Desktop/upTimeCopyxx/app/src/main/res/layout/activity_payment.xml" value="0.1" />
+        <entry key="..\:/Users/hp/Desktop/upTimeCopyxx/app/src/main/res/layout/book_hack_row_item2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/hp/Desktop/upTimeCopyxx/app/src/main/res/layout/fragment_browse.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/offic/AndroidStudioProjects/UpTime2/app/src/main/res/drawable/bottom_item_selector.xml" value="0.2526041666666667" />
         <entry key="..\:/Users/offic/AndroidStudioProjects/UpTime2/app/src/main/res/drawable/bottom_nav_bg.xml" value="0.2526041666666667" />
         <entry key="..\:/Users/offic/AndroidStudioProjects/UpTime2/app/src/main/res/drawable/deep_dive_bg.xml" value="0.2526041666666667" />

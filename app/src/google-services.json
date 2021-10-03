@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "282060043265",
+    "firebase_url": "https://uptime--new-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "uptime--new",
+    "storage_bucket": "uptime--new.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:282060043265:android:1a6124d37d4de063d0fc00",
+        "android_client_info": {
+          "package_name": "com.example.uptimeapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "282060043265-rfdki1rt9dn8fs9qirf36ulcm11o5i9r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzKCiSXLbbZkVD3lswiOvG-kEjgdtP00c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "282060043265-rfdki1rt9dn8fs9qirf36ulcm11o5i9r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
