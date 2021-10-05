@@ -71,20 +71,26 @@ class AuthActivity : AppCompatActivity() {
     private fun firebaseAuthWithGoogle(idToken: String) {
         val credential = GoogleAuthProvider.getCredential(idToken, null)
         mAuth!!.signInWithCredential(credential).addOnCompleteListener(this) { task ->
-            if (task.isSuccessful) {
+            try {
 
-                Log.d(TAG, "signInWithCredential:success")
-                val user = mAuth!!.currentUser
+
+                if (task.isSuccessful) {
+
+                    Log.d(TAG, "signInWithCredential:success")
+                    val user = mAuth!!.currentUser
+                    val i = Intent(this, MainActivity::class.java)
+                    startActivity(i)
+                    finish()
+                    dialog!!.dismiss()
+
+
+                }
+            }catch(e:Exception)
+            {
+                dialog!!.dismiss()
                 val i = Intent(this, MainActivity::class.java)
                 startActivity(i)
                 finish()
-                dialog!!.dismiss()
-
-
-            }
-            else{
-                dialog!!.dismiss()
-
                 Toast.makeText(this, "Login failed", Toast.LENGTH_SHORT).show()
             }
         }

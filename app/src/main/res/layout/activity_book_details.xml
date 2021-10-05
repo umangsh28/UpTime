@@ -11,8 +11,12 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="9"
-        android:background="@drawable/finalcover"
         android:orientation="vertical">
+
+        <pl.droidsonroids.gif.GifImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/dribble2" />
 
         <RelativeLayout
             android:id="@+id/rl"
@@ -82,8 +86,10 @@
             android:id="@+id/content"
             android:layout_width="300dp"
             android:layout_height="400dp"
+            android:layout_below="@id/progressBar"
             android:layout_centerInParent="true"
-            android:textColor="#433E40"
+            android:layout_marginTop="30dp"
+            android:textColor="#E1D9DC"
             android:textSize="15sp"
             android:textStyle="normal" />
     </RelativeLayout>
