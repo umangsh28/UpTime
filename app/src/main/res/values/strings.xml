@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">UpTime</string>
+    <string name="app_name">Listen Audiobooks</string>
     <string name="title_activity_payment">PaymentActivity</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>

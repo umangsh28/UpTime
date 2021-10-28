@@ -1,33 +1,42 @@
 {
   "project_info": {
-    "project_number": "446543375300",
-    "project_id": "uptime-a1640",
-    "storage_bucket": "uptime-a1640.appspot.com"
+    "project_number": "518593005698",
+    "firebase_url": "https://up-time-latest-default-rtdb.firebaseio.com",
+    "project_id": "up-time-latest",
+    "storage_bucket": "up-time-latest.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:446543375300:android:dcb7a55b02fac5c839d291",
+        "mobilesdk_app_id": "1:518593005698:android:c5f52a426d00152c0ecc9b",
         "android_client_info": {
-          "package_name": "com.example.uptimeapp"
+          "package_name": "com.pns.uptimeapp"
         }
       },
       "oauth_client": [
         {
-          "client_id": "446543375300-3dsu63oe4v6jc2un7o95u0vfni5q1e3s.apps.googleusercontent.com",
+          "client_id": "518593005698-sdt3akivvmemfbrvdeln19m7j6g28j0e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pns.uptimeapp",
+            "certificate_hash": "7c7ac8f65d3945a8f8db456335f8ff7a30d72086"
+          }
+        },
+        {
+          "client_id": "518593005698-cra4komfj5t8q8te0mbchb0to6js5bs0.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCFkFGWwCnR4PnD1tG-lk94WkCjjV5Oz_o"
+          "current_key": "AIzaSyD3F7ZZJSB9TkPpB1jVnP1XtipVhv19Wbs"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "446543375300-3dsu63oe4v6jc2un7o95u0vfni5q1e3s.apps.googleusercontent.com",
+              "client_id": "518593005698-cra4komfj5t8q8te0mbchb0to6js5bs0.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
