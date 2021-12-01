@@ -41,14 +41,5 @@
                 android:id="@+id/Bname"
                 android:textColor="@color/black"
                 android:textSize="10dp"/>
-
-
-
-
-
-
         </LinearLayout>
-
-
-
     </androidx.cardview.widget.CardView>
