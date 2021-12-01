@@ -26,6 +26,8 @@
 
 ## Here are the some screenshots of the cloned application
 
+<img src="https://firebasestorage.googleapis.com/v0/b/ajio-f9ef3.appspot.com/o/splash%20screen.png?alt=media&token=7cf891ec-db0b-4cdb-93c0-788369af827a">
+
 ![GitHub Cards Preview](https://firebasestorage.googleapis.com/v0/b/ajio-f9ef3.appspot.com/o/splash%20screen.png?alt=media&token=7cf891ec-db0b-4cdb-93c0-788369af827a)
 ![GitHub Cards Preview](https://firebasestorage.googleapis.com/v0/b/ajio-f9ef3.appspot.com/o/splash%20screen%20(1).png?alt=media&token=c870fb19-4013-4ee2-ac61-631430ea3d99)
 ![GitHub Cards Preview](https://firebasestorage.googleapis.com/v0/b/ajio-f9ef3.appspot.com/o/splash%20screen%20(2).png?alt=media&token=88ded168-a273-437f-8221-7ba6f1118d75)
