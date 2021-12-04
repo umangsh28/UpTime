@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.pns.uptimeapp">
+    package="com.angel.uptimeapp">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -15,27 +15,27 @@
         android:usesCleartextTraffic="true"
         tools:ignore="AllowBackup,ExtraText">
         <activity
-            android:name="com.pns.uptimeapp.AuthActivity"
+            android:name="com.angel.uptimeapp.AuthActivity"
             android:exported="true" />
         <activity
-            android:name="com.pns.uptimeapp.InHomeFragement.BookReader"
+            android:name="com.angel.uptimeapp.InHomeFragement.BookReader"
             android:exported="true" />
         <activity
-            android:name="com.pns.uptimeapp.PaymentActivity"
+            android:name="com.angel.uptimeapp.PaymentActivity"
             android:exported="true"
             android:label="@string/title_activity_payment"
             android:theme="@style/Theme.UpTimeApp.NoActionBar" />
         <activity
-            android:name="com.pns.uptimeapp.DeepDiveActivity"
+            android:name="com.angel.uptimeapp.DeepDiveActivity"
             android:exported="true" />
         <activity
-            android:name="com.pns.uptimeapp.BookDetailsActivity"
+            android:name="com.angel.uptimeapp.BookDetailsActivity"
             android:exported="true" />
         <activity
-            android:name="com.pns.uptimeapp.MainActivity"
+            android:name="com.angel.uptimeapp.MainActivity"
             android:windowSoftInputMode="adjustPan" />
         <activity
-            android:name="com.pns.uptimeapp.SplashActivity"
+            android:name="com.angel.uptimeapp.SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

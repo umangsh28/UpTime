@@ -18,16 +18,121 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a55bb662-4d4c-4b5f-bebe-d3c2d8ca4af1" name="Default Changelist" comment="umang  by final commit  all error fix">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/angel/uptimeapp/Mvvm/Model2/TrendingBook/BookList.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/angel/uptimeapp/Mvvm/OnClickListner/ItemClickListener.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/app/UpTime_App.app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/UpTime_App.app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_home.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/itemdesign.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/itemdesign.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/google-services.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/google-services.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/pns/uptimeapp/ExampleInstrumentedTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/angel/uptimeapp/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/google-services.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/google-services.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pns/uptimeapp/AuthActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angel/uptimeapp/AuthActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pns/uptimeapp/BookDetailsActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angel/uptimeapp/BookDetailsActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pns/uptimeapp/DeepDiveActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angel/uptimeapp/DeepDiveActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pns/uptimeapp/InHomeFragement/BookReader.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angel/uptimeapp/InHomeFragement/BookReader.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pns/uptimeapp/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angel/uptimeapp/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pns/uptimeapp/Mvvm/API/APIClient.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angel/uptimeapp/Mvvm/API/APIClient.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pns/uptimeapp/Mvvm/Model2/BestBook/AccessInfo.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angel/uptimeapp/Mvvm/Model2/ForYou/AccessInfo.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pns/uptimeapp/Mvvm/Model2/BestBook/Epub.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angel/uptimeapp/Mvvm/Model2/BestBook/Epub.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pns/uptimeapp/Mvvm/Model2/BestBook/FictionList.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angel/uptimeapp/Mvvm/Model2/BestBook/FictionList.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pns/uptimeapp/Mvvm/Model2/BestBook/ImageLinks.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angel/uptimeapp/Mvvm/Model2/BestBook/ImageLinks.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pns/uptimeapp/Mvvm/Model2/BestBook/IndustryIdentifier.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angel/uptimeapp/Mvvm/Model2/BestBook/IndustryIdentifier.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pns/uptimeapp/Mvvm/Model2/BestBook/Item.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angel/uptimeapp/Mvvm/Model2/BestBook/Item.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pns/uptimeapp/Mvvm/Model2/BestBook/ListPrice.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angel/uptimeapp/Mvvm/Model2/BestBook/ListPrice.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pns/uptimeapp/Mvvm/Model2/BestBook/ListPriceX.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angel/uptimeapp/Mvvm/Model2/BestBook/ListPriceX.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pns/uptimeapp/Mvvm/Model2/BestBook/Offer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angel/uptimeapp/Mvvm/Model2/ForYou/Offer.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pns/uptimeapp/Mvvm/Model2/BestBook/PanelizationSummary.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angel/uptimeapp/Mvvm/Model2/ForYou/PanelizationSummary.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pns/uptimeapp/Mvvm/Model2/BestBook/Pdf.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angel/uptimeapp/Mvvm/Model2/ForYou/Pdf.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pns/uptimeapp/Mvvm/Model2/BestBook/ReadingModes.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angel/uptimeapp/Mvvm/Model2/ForYou/ReadingModes.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pns/uptimeapp/Mvvm/Model2/BestBook/RetailPrice.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angel/uptimeapp/Mvvm/Model2/ForYou/RetailPrice.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pns/uptimeapp/Mvvm/Model2/BestBook/RetailPriceX.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angel/uptimeapp/Mvvm/Model2/BestBook/RetailPriceX.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pns/uptimeapp/Mvvm/Model2/BestBook/SaleInfo.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angel/uptimeapp/Mvvm/Model2/BestBook/SaleInfo.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pns/uptimeapp/Mvvm/Model2/BestBook/SearchInfo.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angel/uptimeapp/Mvvm/Model2/BestBook/SearchInfo.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pns/uptimeapp/Mvvm/Model2/BestBook/VolumeInfo.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angel/uptimeapp/Mvvm/Model2/BestBook/VolumeInfo.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pns/uptimeapp/Mvvm/Model2/ForYou/AccessInfo.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angel/uptimeapp/Mvvm/Model2/BestBook/AccessInfo.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pns/uptimeapp/Mvvm/Model2/ForYou/Epub.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angel/uptimeapp/Mvvm/Model2/ForYou/Epub.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pns/uptimeapp/Mvvm/Model2/ForYou/ImageLinks.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angel/uptimeapp/Mvvm/Model2/ForYou/ImageLinks.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pns/uptimeapp/Mvvm/Model2/ForYou/IndustryIdentifier.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angel/uptimeapp/Mvvm/Model2/ForYou/IndustryIdentifier.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pns/uptimeapp/Mvvm/Model2/ForYou/Item.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angel/uptimeapp/Mvvm/Model2/ForYou/Item.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pns/uptimeapp/Mvvm/Model2/ForYou/ListPrice.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angel/uptimeapp/Mvvm/Model2/ForYou/ListPrice.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pns/uptimeapp/Mvvm/Model2/ForYou/ListPriceX.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angel/uptimeapp/Mvvm/Model2/ForYou/ListPriceX.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pns/uptimeapp/Mvvm/Model2/ForYou/Offer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angel/uptimeapp/Mvvm/Model2/BestBook/Offer.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pns/uptimeapp/Mvvm/Model2/ForYou/PanelizationSummary.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angel/uptimeapp/Mvvm/Model2/BestBook/PanelizationSummary.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pns/uptimeapp/Mvvm/Model2/ForYou/Pdf.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angel/uptimeapp/Mvvm/Model2/BestBook/Pdf.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pns/uptimeapp/Mvvm/Model2/ForYou/ReadingModes.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angel/uptimeapp/Mvvm/Model2/BestBook/ReadingModes.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pns/uptimeapp/Mvvm/Model2/ForYou/RetailPrice.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angel/uptimeapp/Mvvm/Model2/BestBook/RetailPrice.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pns/uptimeapp/Mvvm/Model2/ForYou/RetailPriceX.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angel/uptimeapp/Mvvm/Model2/ForYou/RetailPriceX.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pns/uptimeapp/Mvvm/Model2/ForYou/SaleInfo.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angel/uptimeapp/Mvvm/Model2/ForYou/SaleInfo.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pns/uptimeapp/Mvvm/Model2/ForYou/SearchInfo.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angel/uptimeapp/Mvvm/Model2/ForYou/SearchInfo.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pns/uptimeapp/Mvvm/Model2/ForYou/ThrillerList.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angel/uptimeapp/Mvvm/Model2/ForYou/ThrillerList.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pns/uptimeapp/Mvvm/Model2/ForYou/VolumeInfo.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angel/uptimeapp/Mvvm/Model2/ForYou/VolumeInfo.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pns/uptimeapp/Mvvm/Model2/PopularChoice/AccessInfo.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angel/uptimeapp/Mvvm/Model2/PopularChoice/AccessInfo.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pns/uptimeapp/Mvvm/Model2/PopularChoice/BusinessList.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angel/uptimeapp/Mvvm/Model2/PopularChoice/BusinessList.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pns/uptimeapp/Mvvm/Model2/PopularChoice/Epub.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angel/uptimeapp/Mvvm/Model2/PopularChoice/Epub.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pns/uptimeapp/Mvvm/Model2/PopularChoice/ImageLinks.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angel/uptimeapp/Mvvm/Model2/PopularChoice/ImageLinks.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pns/uptimeapp/Mvvm/Model2/PopularChoice/IndustryIdentifier.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angel/uptimeapp/Mvvm/Model2/PopularChoice/IndustryIdentifier.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pns/uptimeapp/Mvvm/Model2/PopularChoice/Item.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angel/uptimeapp/Mvvm/Model2/PopularChoice/Item.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pns/uptimeapp/Mvvm/Model2/PopularChoice/ListPrice.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angel/uptimeapp/Mvvm/Model2/PopularChoice/ListPrice.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pns/uptimeapp/Mvvm/Model2/PopularChoice/ListPriceX.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angel/uptimeapp/Mvvm/Model2/PopularChoice/ListPriceX.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pns/uptimeapp/Mvvm/Model2/PopularChoice/Offer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angel/uptimeapp/Mvvm/Model2/PopularChoice/Offer.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pns/uptimeapp/Mvvm/Model2/PopularChoice/PanelizationSummary.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angel/uptimeapp/Mvvm/Model2/PopularChoice/PanelizationSummary.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pns/uptimeapp/Mvvm/Model2/PopularChoice/Pdf.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angel/uptimeapp/Mvvm/Model2/PopularChoice/Pdf.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pns/uptimeapp/Mvvm/Model2/PopularChoice/ReadingModes.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angel/uptimeapp/Mvvm/Model2/PopularChoice/ReadingModes.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pns/uptimeapp/Mvvm/Model2/PopularChoice/RetailPrice.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angel/uptimeapp/Mvvm/Model2/PopularChoice/RetailPrice.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pns/uptimeapp/Mvvm/Model2/PopularChoice/RetailPriceX.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angel/uptimeapp/Mvvm/Model2/PopularChoice/RetailPriceX.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pns/uptimeapp/Mvvm/Model2/PopularChoice/SaleInfo.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angel/uptimeapp/Mvvm/Model2/PopularChoice/SaleInfo.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pns/uptimeapp/Mvvm/Model2/PopularChoice/SearchInfo.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angel/uptimeapp/Mvvm/Model2/PopularChoice/SearchInfo.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pns/uptimeapp/Mvvm/Model2/PopularChoice/VolumeInfo.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angel/uptimeapp/Mvvm/Model2/PopularChoice/VolumeInfo.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pns/uptimeapp/Mvvm/Model2/TrendingBook/BookList.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pns/uptimeapp/Mvvm/Model2/TrendingBook/BookListItem.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angel/uptimeapp/Mvvm/Model2/TrendingBook/BookListItem.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pns/uptimeapp/Mvvm/Model2/TrendingBook/PublishedDate.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angel/uptimeapp/Mvvm/Model2/TrendingBook/PublishedDate.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pns/uptimeapp/Mvvm/Network/Network.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angel/uptimeapp/Mvvm/Network/Network.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pns/uptimeapp/Mvvm/OnClickListner/ItemClickListener.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pns/uptimeapp/PaymentActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angel/uptimeapp/PaymentActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pns/uptimeapp/Recycler/BestBook/FictionAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angel/uptimeapp/Recycler/BestBook/FictionAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pns/uptimeapp/Recycler/BestBook/FictionHolder.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angel/uptimeapp/Recycler/BestBook/FictionHolder.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pns/uptimeapp/Recycler/ForYou/ThrillerAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angel/uptimeapp/Recycler/ForYou/ThrillerAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pns/uptimeapp/Recycler/ForYou/ThrillerHolder.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angel/uptimeapp/Recycler/ForYou/ThrillerHolder.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pns/uptimeapp/Recycler/PopularChoice/BusinessAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angel/uptimeapp/Recycler/PopularChoice/BusinessAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pns/uptimeapp/Recycler/PopularChoice/BusinessHolder.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angel/uptimeapp/Recycler/PopularChoice/BusinessHolder.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pns/uptimeapp/Recycler/Trend/TrendAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angel/uptimeapp/Recycler/Trend/TrendAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pns/uptimeapp/Recycler/Trend/TrendHolder.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angel/uptimeapp/Recycler/Trend/TrendHolder.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pns/uptimeapp/SearchResultAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angel/uptimeapp/SearchResultAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pns/uptimeapp/SplashActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angel/uptimeapp/SplashActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pns/uptimeapp/bookhack/interfaces/BookHacksDataLoadListener.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angel/uptimeapp/bookhack/interfaces/BookHacksDataLoadListener.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pns/uptimeapp/bookhack/model/BookHackModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angel/uptimeapp/bookhack/model/BookHackModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pns/uptimeapp/bookhack/repository/Repo.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angel/uptimeapp/bookhack/repository/Repo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pns/uptimeapp/bookhack/ui/BookHackAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angel/uptimeapp/bookhack/ui/BookHackAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pns/uptimeapp/bookhack/viewmodel/BookViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angel/uptimeapp/bookhack/viewmodel/BookViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pns/uptimeapp/collection/interfaces/CollectionDataLoadListener.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angel/uptimeapp/collection/interfaces/CollectionDataLoadListener.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pns/uptimeapp/collection/model/CollectionsModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angel/uptimeapp/collection/model/CollectionsModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pns/uptimeapp/collection/repository/Repo.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angel/uptimeapp/collection/repository/Repo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pns/uptimeapp/collection/ui/CollectionsAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angel/uptimeapp/collection/ui/CollectionsAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pns/uptimeapp/collection/viewmodel/CollectionsViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angel/uptimeapp/collection/viewmodel/CollectionsViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pns/uptimeapp/coursehack/interfaces/CourseHacksDataLoadListener.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angel/uptimeapp/coursehack/interfaces/CourseHacksDataLoadListener.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pns/uptimeapp/coursehack/model/CourseHackModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angel/uptimeapp/coursehack/model/CourseHackModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pns/uptimeapp/coursehack/repository/Repo.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angel/uptimeapp/coursehack/repository/Repo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pns/uptimeapp/coursehack/ui/CourseHackAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angel/uptimeapp/coursehack/ui/CourseHackAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pns/uptimeapp/coursehack/viewmodel/CourseViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angel/uptimeapp/coursehack/viewmodel/CourseViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pns/uptimeapp/documentaryhack/interfaces/DocumentaryHacksDataLoadListener.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angel/uptimeapp/documentaryhack/interfaces/DocumentaryHacksDataLoadListener.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pns/uptimeapp/documentaryhack/model/DocumentaryHackModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angel/uptimeapp/documentaryhack/model/DocumentaryHackModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pns/uptimeapp/documentaryhack/repository/Repo.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angel/uptimeapp/documentaryhack/repository/Repo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pns/uptimeapp/documentaryhack/ui/DocumentaryHackAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angel/uptimeapp/documentaryhack/ui/DocumentaryHackAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pns/uptimeapp/documentaryhack/viewmodel/DocumentaryViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angel/uptimeapp/documentaryhack/viewmodel/DocumentaryViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pns/uptimeapp/fragments/BrowseFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angel/uptimeapp/fragments/BrowseFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pns/uptimeapp/fragments/HomeFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angel/uptimeapp/fragments/HomeFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pns/uptimeapp/fragments/MyUptimeFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angel/uptimeapp/fragments/MyUptimeFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pns/uptimeapp/fragments/PremiumFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angel/uptimeapp/fragments/PremiumFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pns/uptimeapp/fragments/SparksFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angel/uptimeapp/fragments/SparksFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/navigation/nav_graph.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/navigation/nav_graph.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/navigation/nav_graph_bottom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/navigation/nav_graph_bottom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/pns/uptimeapp/ExampleUnitTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/angel/uptimeapp/ExampleUnitTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +202,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.recentlyUsedThemes" value="Theme.Design&#10;Theme.MaterialComponents" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -108,11 +213,11 @@
       <recent name="com.example.uptimeapp.InHomeFragement" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\AndroidProjects\UpTimea\app\src" />
+      <recent name="D:\AndroidProjects\UpTimea\app" />
       <recent name="D:\AndroidProjects\UpTime\app" />
       <recent name="C:\Users\hp\Desktop\upTimeCopyxx\app\src\main\res\drawable" />
       <recent name="C:\Users\hp\Desktop\UpTime\app\src\main\res\drawable" />
-      <recent name="C:\Users\hp\Desktop\UpTime\app\src\main\java\com\example\uptimeapp" />
-      <recent name="C:\Users\hp\Desktop\UpTime\app" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\hp\Desktop\UpTime\app\src\main\res\drawable" />

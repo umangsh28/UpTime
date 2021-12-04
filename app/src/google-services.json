@@ -1,42 +1,33 @@
 {
   "project_info": {
-    "project_number": "518593005698",
-    "firebase_url": "https://up-time-latest-default-rtdb.firebaseio.com",
-    "project_id": "up-time-latest",
-    "storage_bucket": "up-time-latest.appspot.com"
+    "project_number": "864835221845",
+    "project_id": "listen-audiobooks-4e7ed",
+    "storage_bucket": "listen-audiobooks-4e7ed.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:518593005698:android:c5f52a426d00152c0ecc9b",
+        "mobilesdk_app_id": "1:864835221845:android:9732453c7f0b3447e1d7dc",
         "android_client_info": {
-          "package_name": "com.pns.uptimeapp"
+          "package_name": "com.angel.uptimeapp"
         }
       },
       "oauth_client": [
         {
-          "client_id": "518593005698-sdt3akivvmemfbrvdeln19m7j6g28j0e.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.pns.uptimeapp",
-            "certificate_hash": "7c7ac8f65d3945a8f8db456335f8ff7a30d72086"
-          }
-        },
-        {
-          "client_id": "518593005698-cra4komfj5t8q8te0mbchb0to6js5bs0.apps.googleusercontent.com",
+          "client_id": "864835221845-6i2qd93kqh1l66sk7hs3e3mi6pgpgj28.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyD3F7ZZJSB9TkPpB1jVnP1XtipVhv19Wbs"
+          "current_key": "AIzaSyB39av5bzSG5llVHwFTiN14gH8fR_10gx8"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "518593005698-cra4komfj5t8q8te0mbchb0to6js5bs0.apps.googleusercontent.com",
+              "client_id": "864835221845-6i2qd93kqh1l66sk7hs3e3mi6pgpgj28.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
