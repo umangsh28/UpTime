@@ -1,4 +1,4 @@
-![GitHub Cards Preview](https://firebasestorage.googleapis.com/v0/b/ajio-f9ef3.appspot.com/o/Untitled%20design.png?alt=media&token=78d75fe4-3de1-4869-ad51-754ac0bd3370)
+![GitHub Cards Preview](https://firebasestorage.googleapis.com/v0/b/snapchat-f2264.appspot.com/o/One_Column_Text%5B1%5D.png?alt=media&token=12f74d1e-5e1d-460c-90f5-df3c1f246dc2)
 
 ## Tech Stack ✨
 - Firebase 
