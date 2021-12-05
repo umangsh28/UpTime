@@ -1,22 +1,62 @@
 ![GitHub Cards Preview](https://firebasestorage.googleapis.com/v0/b/snapchat-f2264.appspot.com/o/One_Column_Text%5B1%5D.png?alt=media&token=12f74d1e-5e1d-460c-90f5-df3c1f246dc2)
 
-## Tech Stack ✨
-- Firebase 
-- Java
-- Kotlin
-- MVVM
-- Live Data
-- Retrofit
-- Navigation component
+###  
+App Name                   | Describe                  | Tech Stack             | Google Play 
+:------------------------: | :------------------------ | :------------------------: | :------------------------: 
+Uptime Clone | Uptime is an android application where one can read and listen books whenever anywhere.  | Android, Kotlin, Firebase, Glide, MVVM, Live Data, Retrofit, Navigation component | [![Get it on Google Play](https://i.imgur.com/T9HnFlW.png)](https://play.google.com/store/apps/details?id=com.angel.uptimeapp)
 
-## Used Open Source-Libraries 😎
-- [Glide](https://github.com/bumptech/glide)
-- [Circular Image View](https://github.com/hdodenhof/CircleImageView)
-- [Retrofit](https://square.github.io/retrofit/)
+# Dependencies
 
-## Built With 🚀
-- [Java](https://www.java.com/en/)
-- [Kotlin](https://kotlinlang.org/)
+    implementation 'androidx.navigation:navigation-fragment-ktx:2.3.5'
+    implementation 'com.google.firebase:firebase-database-ktx:20.0.2'
+    implementation 'com.google.firebase:firebase-database:20.0.2'
+    def nav_version = "2.3.5"
+
+    // Kotlin
+    implementation "androidx.navigation:navigation-fragment-ktx:$nav_version"
+    implementation "androidx.navigation:navigation-ui-ktx:$nav_version"
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+
+    // Glide
+    implementation 'com.github.bumptech.glide:glide:4.12.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.12.0'
+
+    implementation 'androidx.navigation:navigation-fragment-ktx:2.3.5'
+    implementation 'androidx.navigation:navigation-ui-ktx:2.3.5'
+
+    //Retrofit
+    def retrofit2_version = "2.9.0"
+    def okhttp3_version = "4.9.0"
+    implementation "com.squareup.retrofit2:retrofit:$retrofit2_version"
+    implementation "com.squareup.retrofit2:converter-gson:$retrofit2_version"
+
+    //Okhttp3
+    implementation "com.squareup.okhttp3:okhttp:$okhttp3_version"
+
+    //This library is used to observe the API logs, Http status code and the API response
+    implementation 'com.squareup.okhttp3:logging-interceptor:5.0.0-alpha.2'
+    implementation 'com.github.bumptech.glide:glide:4.12.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.12.0'
+
+    //Razorpay
+    implementation 'com.razorpay:checkout:1.6.12'
+
+    def anko_version = '0.10.0'
+    def arch_version = '2.2.0-alpha01'
+    
+    // ViewModel and LiveData
+    implementation "androidx.lifecycle:lifecycle-extensions:$arch_version"
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$arch_version"
+    implementation "androidx.lifecycle:lifecycle-livedata-ktx:$arch_version"
+    implementation "androidx.lifecycle:lifecycle-runtime-ktx:$arch_version"
+
+    // Firebase Auth
+    implementation 'com.jpardogo.googleprogressbar:library:1.2.0'
+    implementation 'com.google.firebase:firebase-auth-ktx:21.0.1'
+    implementation 'com.google.android.gms:play-services-auth:19.2.0'
+    implementation 'com.google.firebase:firebase-core:19.0.1'
+
+    implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.17'
 
 ## Instructions to clone this project ✌
 1. Open Android Studio.
@@ -26,11 +66,4 @@
 
 ## Here are the some screenshots of the cloned application
 
-<img src="https://firebasestorage.googleapis.com/v0/b/ajio-f9ef3.appspot.com/o/splash%20screen.png?alt=media&token=7cf891ec-db0b-4cdb-93c0-788369af827a">
-
-<img src="https://firebasestorage.googleapis.com/v0/b/ajio-f9ef3.appspot.com/o/splash%20screen%20(4).png?alt=media&token=605bfee6-594d-46d8-a938-fc3bd934fcee">
-
-![GitHub Cards Preview](https://firebasestorage.googleapis.com/v0/b/ajio-f9ef3.appspot.com/o/splash%20screen%20(1).png?alt=media&token=c870fb19-4013-4ee2-ac61-631430ea3d99)
-![GitHub Cards Preview](https://firebasestorage.googleapis.com/v0/b/ajio-f9ef3.appspot.com/o/splash%20screen%20(2).png?alt=media&token=88ded168-a273-437f-8221-7ba6f1118d75)
-![GitHub Cards Preview](https://firebasestorage.googleapis.com/v0/b/ajio-f9ef3.appspot.com/o/splash%20screen%20(3).png?alt=media&token=6ce041ed-5114-431a-8780-89651a4779d6)
-
+![GitHub Cards Preview](https://firebasestorage.googleapis.com/v0/b/snapchat-f2264.appspot.com/o/Untitled%20design%20(12).png?alt=media&token=974ddc16-b730-4609-90bb-6fa4183b0ec3)
