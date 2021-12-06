@@ -3,7 +3,7 @@
 ###  
 App Name                   | Describe                  | Tech Stack             | Google Play 
 :------------------------: | :------------------------ | :------------------------: | :------------------------: 
-Uptime Clone | Uptime is an android application where one can read and listen books whenever anywhere.  | Android, Kotlin, Firebase, Glide, MVVM, Live Data, Retrofit, Navigation component | [![Get it on Google Play](https://i.imgur.com/T9HnFlW.png)](https://play.google.com/store/apps/details?id=com.angel.uptimeapp)
+Uptime Clone | Uptime is an android application where one can read and listen books whenever anywhere.  | Android, Kotlin, Firebase, Glide, MVVM, Live Data, Retrofit, Navigation component | [![Get it on Google Play](https://firebasestorage.googleapis.com/v0/b/snapchat-f2264.appspot.com/o/T9HnFlW.png?alt=media&token=b46055e4-3b02-424f-9e88-862543831a8b)](https://play.google.com/store/apps/details?id=com.angel.uptimeapp)
 
 # Dependencies
 
